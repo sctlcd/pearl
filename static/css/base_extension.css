@@ -249,7 +249,13 @@ body {
 
 .allauth-form-inner-content a {
   color: #39C0ED;
-  /* text-info */
+}
+
+.allauth-form-inner-content .invalid-feedback {
+  width: 100%;
+  margin-top: .25rem;
+  font-size: 80%;
+  color: #dc3545;
 }
 
 .allauth-buttons {

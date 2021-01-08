@@ -1,16 +1,17 @@
-# Pearl
-
 # [Pearl](https://sctlcd-pearl2.herokuapp.com/)
 
-<img src="https://github.com/sctlcd/pearl/blob/master/design/mockups.png" alt="Pearl" width="700">
-
-<dd>Do you like creative activities, Arts and Crafts and making things by yourself with your hands and your creativity ?</dd>
-<dt>This website is a pearl to you!</date_to_long_string>
-<dt>At Pearl's you can purchase arts and crafts supplies and sharing customers' work of art in the meantime as getting inspiration from other customers' creative work in the gallery</dt>
+<img src="https://github.com/sctlcd/pearl/blob/master/design/mockups.png" alt="Pearl" width="800">
+<dl>
+<dd>Do you like creative activities, arts and crafts and making things by yourself with creativity, happiness and your own two hands ?</dd>
+<dd>Then this website is a <strong>pearl</strong> to you!</dd>
+<dd>At Pearl's you can <strong>purchase arts and crafts supplies</strong> and <strong>sharing customers' work of art</strong> in the meantime as <strong>getting inspiration</strong> from other customers' creative work in the <strong>gallery</strong>.</dd>
 
 [Let me show you!](https://sctlcd-pearl2.herokuapp.com/)
-
-**Warning** Because of an issue relative to submitting a form with an uploaded image in my deployed environment I did set up the image field in the gallery model as not required for limiting the impact of the issue which has been solved just before my project deadline submission. I set up initially the gallery image field as required. I will set it back to required in the future.
+<br />
+<br />
+**Warning**
+<br />
+Because of an issue relative to submitting a form with an uploaded image in my deployed environment I did set up the image field in the gallery model as not required for limiting the impact of the issue which has been solved just before my project deadline submission. I set up initially the gallery image field as required. I will set it back to required in the future.
 
 ---
 
@@ -74,7 +75,7 @@ Back to [top](#TableOfContents)
 
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, the **Full Stack Frameworks With Django** module. The objective of this milestone project is building a full-stack site based around business logic used to control a centrally-owned dataset, setting up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service.
 
-My modern responsive e-commerce arts and craft supplies shop built using HTML, CSS, Material Design for Bootstrap, JavaScript, jQuery, Django, Python, PostgreSQL.
+My modern responsive e-commerce arts and crafts supplies site is built using HTML, CSS, Material Design for Bootstrap, JavaScript, jQuery, Django, Python, PostgreSQL.
 
 Back to [top](#TableOfContents)
 
@@ -86,36 +87,36 @@ Back to [top](#TableOfContents)
 
 "***As a user, I want to _____***"
 
-[v] successfully implemented
-[x] not yet implemented
+:heavy_check_mark: successfully implemented
+:x: not yet implemented
 
-- [v] view the site from any device (mobile, tablet, desktop).
-- [v] be able to log in.
-- [v] be able to log out.
-- [v] be able to register.
-- [v] filter and search amongst all products.
-- [v] view all products.
-- [v] view a product details.
-- [v] add products with an image as an admin.
-- [v] add products without an image as an admin.
-- [v] edit products with an image as an admin.
-- [v] edit products without an image as an admin.
-- [v] delete products as an admin.
-- [v] view gallery images.
-- [v] view a gallery image.
-- [v] share a gallery image as a logged in user.
-- [v] add a gallery item with an image as an admin.
-- [v] add a gallery item without an image as an admin.
-- [v] edit a gallery item with an image as an admin.
-- [v] edit a gallery item without an image as an admin.
-- [v] delete a gallery image as an admin.
-- [v] approved a gallery image as an admin.
-- [v] view my profile as a logged in user.
-- [v] update my profile as a logged in user.
-- [v] update my profile as logged in user.
-- [v] add products to my bag.
-- [v] checkout my order.
-- [v] send a contact request.
+- :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
+- :heavy_check_mark: be able to log in.
+- :heavy_check_mark: be able to log out.
+- :heavy_check_mark: be able to register.
+- :heavy_check_mark: filter and search amongst all products.
+- :heavy_check_mark: view all products.
+- :heavy_check_mark: view a product details.
+- :heavy_check_mark: add products with an image as an admin.
+- :heavy_check_mark: add products without an image as an admin.
+- :heavy_check_mark: edit products with an image as an admin.
+- :heavy_check_mark: edit products without an image as an admin.
+- :heavy_check_mark: delete products as an admin.
+- :heavy_check_mark: view gallery images.
+- :heavy_check_mark: view a gallery image.
+- :heavy_check_mark: share a gallery image as a logged in user.
+- :heavy_check_mark: add a gallery item with an image as an admin.
+- :heavy_check_mark: add a gallery item without an image as an admin.
+- :heavy_check_mark: edit a gallery item with an image as an admin.
+- :heavy_check_mark: edit a gallery item without an image as an admin.
+- :heavy_check_mark: delete a gallery image as an admin.
+- :heavy_check_mark: approved a gallery image as an admin.
+- :heavy_check_mark: view my profile as a logged in user.
+- :heavy_check_mark: update my profile as a logged in user.
+- :heavy_check_mark: update my profile as logged in user.
+- :heavy_check_mark: add products to my bag.
+- :heavy_check_mark: checkout my order.
+- :heavy_check_mark: send a contact request.
 
 
 Back to [top](#TableOfContents)
@@ -124,9 +125,15 @@ Back to [top](#TableOfContents)
 
 ### Design <a name="Design"></a>
 
-I did choose a warm and joyful dominant orange [#fc9601](https://placehold.it/15/fc9601/fc9601) combinated with sober colors ranging between off-white [#fafafa](https://placehold.it/15/fafafa/fafafa) and black with a range of grey.
-I choose the [logo](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png) and all the website [images](https://github.com/sctlcd/pearl/tree/master/media) relative to arts and crafts and creative activities. I selected the main home page image, [hero-image-background](https://github.com/sctlcd/pearl/blob/master/media/home/hero_image/hero-image-background-min.jpg), as I found it absolutely beautiful, very eye-catchy and intriguing. It catches the customers/visitors' attention and makes them very curious about it.
-I decided to implement a customers' gallery and offer the possibility to share your own piece of art and getting inspiration from other customers' art work. I believe this feature is an very interesting one as it involves the customers in the website building. They are in a way actor of the gallery page building and content.  
+I did choose a warm, joyful and energetic orange ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601` combined with sober and reliable colors ranging between off-white ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa` and black ![#000](https://placehold.it/15/000/000) `#000` with shades of grey (more color details in [Color Scheme](#ColorScheme) section).
+<br />
+I first choose my [logo](https://www.flaticon.com/free-icon/craft_3079199) from Flaticon(https://www.flaticon.com) which I customized in [Pearl logo](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png).
+<br />
+Then I selected [images](https://github.com/sctlcd/pearl/tree/master/media) relative to arts and crafts and creative activities which fit well in my color scheme and in the space allocated.
+<br />
+I finally selected the main home page image, a [fire spin](https://github.com/sctlcd/pearl/blob/master/media/home/hero_image/hero-image-background-min.jpg) picture, as I found it absolutely stunning, very eye-catchy and intriguing. Catching customers/visitors' attention and raising their interest and curiosity are I believe a good recipe for new visitors as much as for regular customers of an e-commerce site.  
+<br />
+I decided to implement a customers' gallery and offering the possibility to share your own piece of art while getting inspiration from other customers' art work. I believe this feature is a very interesting one as it involves the customers/makes the customers participate in the website building. They are actor, in a way, of the gallery page building and its content.  
 
 Back to [top](#TableOfContents)
 
@@ -140,22 +147,21 @@ Back to [top](#TableOfContents)
 	- For the purpose of keeping the JavaScript minimal
 - [Django 3.1.1](https://www.djangoproject.com/)
 
-
 Back to [top](#TableOfContents)
 
 ---
 
 #### Color Scheme <a name="ColorScheme"></a>
 
-- [#fc9601](https://placehold.it/15/fc9601/fc9601)
-- [#6a6a6e](https://placehold.it/15/6a6a6e/6a6a6e)
-- [#fafafa](https://placehold.it/15/fafafa/fafafa)
-- [#efefef](https://placehold.it/15/efefef/efefef)
-- [#6c757d](https://placehold.it/15/6c757d/6c757d)
-- [#d8d8d8](https://placehold.it/15/d8d8d8/d8d8d8)
-- [#d6d4d4](https://placehold.it/15/d6d4d4/d6d4d4)
-- [#dee2e6](https://placehold.it/15/dee2e6/dee2e6)
-- [#000](https://placehold.it/15/000/000)
+- ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601`
+- ![#6a6a6e](https://placehold.it/15/6a6a6e/6a6a6e) `#6a6a6e`
+- ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa`
+- ![#efefef](https://placehold.it/15/efefef/efefef) `#efefef`
+- ![#6c757d](https://placehold.it/15/6c757d/6c757d) `#6c757d`
+- ![#d8d8d8](https://placehold.it/15/d8d8d8/d8d8d8) `#d8d8d8`
+- ![#d6d4d4](https://placehold.it/15/d6d4d4/d6d4d4) `#d6d4d4`
+- ![#dee2e6](https://placehold.it/15/dee2e6/dee2e6) `#dee2e6`
+- ![#000](https://placehold.it/15/000/000) `#000`
 
 Back to [top](#TableOfContents)
 
@@ -164,7 +170,7 @@ Back to [top](#TableOfContents)
 #### Icons <a name="Icons"></a>
 
 - [Font Awesome 5.14.0](https://fontawesome.com/)
- - It fits my needs for this project
+	- It fits my needs for this project
 
 Back to [top](#TableOfContents)
 
@@ -194,7 +200,7 @@ Back to [top](#TableOfContents)
 
 - Social medias to get connected
 - 3 sections : Company presentation, links to other pages of the website (not implemented), contact section with a contact button redirecting to the contact page.
-- coypright mention with my name and my gitbhub repository
+- copyright mention with my name and my gitbhub repository
 
 Back to [top](#TableOfContents)
 
@@ -206,11 +212,11 @@ Back to [top](#TableOfContents)
 
 ##### Products page
 
-- A Product collection presented in a "mozaic format"
+- A Product collection presented in a "mosaic format"
 
 ##### Products details page
 
-- A page with product details: name, description, proce, rating, product image
+- A page with product details: name, description, price, rating, product image
 
 Back to [top](#TableOfContents)
 
@@ -258,7 +264,7 @@ Back to [top](#TableOfContents)
 ##### No result found page
 
 - Humoristic picture and message letting know the user no result have been found matching with his/her search.
-- Link redirecting to Products Home.
+- Link redirecting to Products Home page
 
 Back to [top](#TableOfContents)
 
@@ -266,7 +272,33 @@ Back to [top](#TableOfContents)
 
 ##### Error pages
 
-- I created the 404 page - No page found and 500 page - Internal server error
+- 404 page - No page found
+	- Link redirecting to Products Home page  
+- 500 page - Internal server error
+	- Link redirecting to Products Home page  
+
+
+##### Pearl Admin Portal
+
+- I customise the Default Django Administration in [pearl/urls.py](https://github.com/sctlcd/pearl/blob/master/pearl/urls.py):
+```
+admin.site.site_header = 'Pearl Administration'
+admin.site.site_title = 'Pearl Admin Portal'
+admin.site.index_title = 'Welcome to Pearl Admin Portal'
+admin.site.site_url = '/admin'
+```
+
+- I changed the time zone to match with the physical location of Pearl shop in New Orleans in USA and the format of time and date in [pearl/settings.py](https://github.com/sctlcd/pearl/blob/master/pearl/settings.py)
+```
+# Time Zone in New Orleans, Louisiana, USA : CST — Central Standard Time
+# corresponding to America/Chicago according to
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+TIME_ZONE = 'America/Chicago'
+USE_I18N = True
+USE_L10N = False
+USE_TZ = True
+DATETIME_FORMAT = "Y-m-d H:i"
+```
 
 Back to [top](#TableOfContents)
 
@@ -313,41 +345,151 @@ Back to [top](#TableOfContents)
 
 The Relational scheme diagram can be found [here](https://github.com/sctlcd/pearl/blob/master/design/relational-scheme.png)
 
+Pear database table details:
+
+**category**
+```
+_id PK int
+name NULL varchar
+friendly_name NULL varchar
+```
+
+**product**
+```
+_id PK int
+sku NULL varchar
+name varchar
+description text
+price money
+category NULL int FK >- category._id
+rating NULL decimal
+image NULL file
+created_at date
+updated_at NULL date
+```
+
+**user_account**
+```
+_id PK int
+email email
+user_name varchar
+password varchar
+first_name NULL varchar
+last_name NULL varchar
+is_superuser boolean
+is_staff boolean
+is_active boolean
+```
+
+**user_profile**
+```
+_id PK int
+user int FK - user_account._id
+default_phone_number NULL varchar
+default_street_address1 NULL varchar
+default_street_address2 NULL varchar
+default_town_or_city NULL varchar
+default_postcode NULL varchar
+default_county NULL varchar
+default_country NULL country
+```
+
+**order**
+```
+_id PK int
+order_number varchar
+user_profile NULL int FK >- user_profile._id
+full_name varchar
+email email
+phone_number varchar
+country country
+postcode NULL varchar
+town_or_city varchar
+street_address1 varchar
+street_address2 NULL varchar
+county NULL varchar
+created_at date
+updated_at NULL date
+delivery_cost money
+order_total money
+grand_total money
+original_bag text
+stripe_pid varchar
+```
+
+**order_line_item**
+```
+order int FK >- order._id
+product int FK >- product._id
+quantity int
+lineitem_total money
+```
+
+**contact**
+```
+_id PK int
+first_name varchar(254)
+last_name varchar(254)
+email email
+message text
+date date
+```
+
+**gallery**
+```
+_id PK int(254) FK >- user_account._id
+user_name varchar
+email email
+author_name varchar
+gallery_category NULL int FK >- gallery_category._id
+image NULL file
+note NULL varchar
+created_at date
+updated_at NULL date
+is_approved boolean
+```
+
+**gallery_category**
+```
+_id PK int
+name NULL varchar
+friendly_name NULL varchar
+```
 
 ## Testing <a name="Testing"></a>
 
 ### User story validation <a name="UserStoryValidation"></a>
 
-[v] *as expected*
+:heavy_check_mark: *as expected*
 :x: *not as expected*
 
-- [v] view the site from any device (mobile, tablet, desktop).
-- [v] be able to log in.
-- [v] be able to log out.
-- [x] be able to register. (see known issue section)
-- [v] filter and search amongst all products.
-- [v] view all products.
-- [v] view a product details.
-- [v] add products with an image as an admin.
-- [v] add products without an image as an admin.
-- [v] edit products with an image as an admin.
-- [v] edit products without an image as an admin.
-- [v] delete products as an admin.
-- [v] view gallery images.
-- [v] view a gallery image.
-- [v] share a gallery image as a logged in user.
-- [v] add a gallery item with an image as an admin.
-- [v] add a gallery item without an image as an admin.
-- [v] edit a gallery item with an image as an admin.
-- [v] edit a gallery item without an image as an admin.
-- [v] delete a gallery image as an admin.
-- [v] approved a gallery image as an admin.
-- [v] view my profile as a logged in user.
-- [v] update my profile as a logged in user.
-- [v] update my profile as logged in user.
-- [v] add products to my bag.
-- [v] checkout my order.
-- [v] send a contact request.
+- :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
+- :heavy_check_mark: be able to log in.
+- :heavy_check_mark: be able to log out.
+- :heavy_check_mark: be able to register.
+- :heavy_check_mark: filter and search amongst all products.
+- :heavy_check_mark: view all products.
+- :heavy_check_mark: view a product details.
+- :heavy_check_mark: add products with an image as an admin.
+- :heavy_check_mark: add products without an image as an admin.
+- :heavy_check_mark: edit products with an image as an admin.
+- :heavy_check_mark: edit products without an image as an admin.
+- :heavy_check_mark: delete products as an admin.
+- :heavy_check_mark: view gallery images.
+- :heavy_check_mark: view a gallery image.
+- :heavy_check_mark: share a gallery image as a logged in user.
+- :heavy_check_mark: add a gallery item with an image as an admin.
+- :heavy_check_mark: add a gallery item without an image as an admin.
+- :heavy_check_mark: edit a gallery item with an image as an admin.
+- :heavy_check_mark: edit a gallery item without an image as an admin.
+- :heavy_check_mark: delete a gallery image as an admin.
+- :heavy_check_mark: approved a gallery image as an admin.
+- :heavy_check_mark: view my profile as a logged in user.
+- :heavy_check_mark: update my profile as a logged in user.
+- :heavy_check_mark: update my profile as logged in user.
+- :heavy_check_mark: add products to my bag.
+- :heavy_check_mark: checkout my order.
+- :heavy_check_mark: send a contact request.
 
 ---
 
@@ -385,7 +527,6 @@ The Relational scheme diagram can be found [here](https://github.com/sctlcd/pear
 | Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
 | Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
 | Footer: text / links | Good |  |  Good | Good |  | Good |  | Good |  | Good |  |Good  |  |
-
 
 Back to [top](#TableOfContents)
 
@@ -454,7 +595,6 @@ Back to [top](#TableOfContents)
 ### Known Issues <a name="KnownIssues"></a>
 
 - top/down page visible when scroll down then scroll up to window scroll = 0 when mobile menu is collapse
-- Sign up issue relative to sending email. Implementing email backend to fix this issue
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
 
@@ -485,16 +625,20 @@ This site is currently deployed on [Heroku](https://www.heroku.com/) using the *
 **Permissions** > **CORS configuration**:
 
 ```
-<?xml version="1.0" encoding="UTF-8"?>
-<CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
-<CORSRule>
-    <AllowedOrigin>*</AllowedOrigin>
-    <AllowedMethod>GET</AllowedMethod>
-    <AllowedMethod>HEAD</AllowedMethod>
-    <MaxAgeSeconds>3000</MaxAgeSeconds>
-    <AllowedHeader>Authorization</AllowedHeader>
-</CORSRule>
-</CORSConfiguration>
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
 ```
 
 **Permissions** > **Bucket Policy**:
@@ -571,7 +715,7 @@ Back to [top](#TableOfContents)
 
 - My inspiration comes from:
 - [Etsy](https://www.etsy.com/) - E-commerce website focused on handmade or vintage items and craft supplies
-- [Cultura](https://www.cultura.com/)- E-commerce website specialized in cultural, arts and crafts goods and leisure activities
+- [Cultura](https://www.cultura.com/) - E-commerce website specialized in cultural, arts and crafts goods and leisure activities
 
 Back to [top](#TableOfContents)
 
@@ -579,7 +723,7 @@ Back to [top](#TableOfContents)
 
 ### Content <a name="Content"></a>
 
-- Baker Ross [bakerross](https://www.bakerross.ie/)
+- [Baker Ross](https://www.bakerross.ie/) - E-commerce website specialized in arts and crafts supplies
 
 Back to [top](#TableOfContents)
 
