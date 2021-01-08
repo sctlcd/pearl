@@ -734,35 +734,54 @@ Back to [top](#TableOfContents)
 Sources of the images used on this site:
 
 - From media/home/hero_image sub-directory
-	- [](https://pixabay.com/fr/photos/outil-outils-%C3%A9quipement-travail-1957451/) - [Pixabay](https://pixabay.com/) | copyright [coyot](https://pixabay.com/fr/users/coyot-2009089/)
-	- [](https://pixabay.com/fr/photos/laine-d-acier-sombre-firespin-458840/) - [Pixabay](https://pixabay.com/) | copyright [463259](https://pixabay.com/fr/users/463259-463259/)  
+	- [hero-image-background-min.jpg](https://pixabay.com/fr/photos/laine-d-acier-sombre-firespin-458840/) - [Pixabay](https://pixabay.com/) | copyright [463259](https://pixabay.com/fr/users/463259-463259/)  
 
 - From media/home/image_showcases sub-directory
-	- [](https://www.flickr.com/photos/woolgenie/11130456836/in/photolist-hXyv3d-5Y9E3c-5nT1q6-9fntLS-hw5rUx-bqVeMj-fdLe7t-BEdCfZ-soJx4-bNxP4i-63nP6c-e5cPNV-ckHujG-a2CVXo-8cvxSy-db7Yc5-81Y6dy-cfSt2L-dy4o3n-6fhExi-6p7Cpn-o9UymA-4wiG4Q-gwcN4-7t4EFt-7tp6xA-6UzTPj-7C4uvk-9Zzhxg-8pfMEs-aAhfP5-CZhs-7teK8f-biUirX-7jSHo1-4m89zu-7viAh3-6bwUfh-oxL6Z-7viAZS-iSoZF-5dtWk7-dLLYgg-4e37c3-8fi2Lx-85fwdc-rWakmW-dC8TzU-dgMAa9-2ehg9Ey) - [Flickr](https://www.flickr.com) | copyright [Heather](https://www.flickr.com/photos/woolgenie/)
-	- [](https://www.pexels.com/photo/assorted-color-great-board-decor-lot-1539581/) - [Pexels](https://www.pexels.com/) | copyright [Tim Mossholder](https://www.pexels.com/@timmossholder)
-	- [](https://www.flickr.com/photos/wespeck/4473683746/) - [Flickr](https://www.flickr.com) | copyright [gfpeck](https://www.flickr.com/photos/wespeck/)
-	- [](https://www.flickr.com/photos/mikecogh/43105291024/) - [Flickr](https://www.flickr.com) | copyright [Michael Coghlan](https://www.flickr.com/photos/mikecogh/)
+	- [create-beads-min.jpg](https://www.flickr.com/photos/woolgenie/11130456836/) - [Flickr](https://www.flickr.com/) | copyright [Heather](https://www.flickr.com/photos/woolgenie/)
+	- [create-grafiti-min.jpg](https://www.flickr.com/photos/rem60/31635422637/) - [Flickr](https://www.flickr.com/) | copyright [Rosemary Miklitsch](https://www.flickr.com/photos/rem60/)
+	- [create-mosaic-min.jpg](https://www.flickr.com/photos/mikecogh/43105291024/) - [Flickr](https://www.flickr.com/) | copyright [Michael Coghlan](https://www.flickr.com/photos/mikecogh/)
 
 - From media/home/testimonials sub-directory
-	- https://pixabay.com/fr/photos/mod%C3%A8le-femme-portrait-336658/  Image par Free-Photos de Pixabay
-	- https://pixabay.com/fr/photos/jeune-fille-%C3%A9changisme-coiffure-1245835/ Image par Free-Photos de Pixabay
-	- https://www.pexels.com/photo/portrait-photo-of-man-in-white-crew-neck-t-shirt-with-assorted-hand-tools-in-background-1139743/ de Juan Pablo Serrano Arenas https://www.pexels.com/@juanpphotoandvideo
+	- [female-2-min.jpg](https://pixabay.com/fr/photos/mod%C3%A8le-femme-portrait-336658/) - [Pixabay](https://pixabay.com/) | copyright [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/)
+	- [female-1-min.jpg](https://pixabay.com/fr/photos/jeune-fille-%C3%A9changisme-coiffure-1245835/) - [Pixabay](https://pixabay.com/) | copyright [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/)
+	- [male-1-min.jpg](https://www.pexels.com/photo/portrait-photo-of-man-in-white-crew-neck-t-shirt-with-assorted-hand-tools-in-background-1139743/) - [Pexels](www.pexels.com) | copyright [Juan Pablo Serrano Arenas](https://www.pexels.com/@juanpphotoandvideo)
 
 - From media/home/gallery sub-directory
-	- [gallery-background-1920-min.jpg](https://www.pexels.com/photo/apple-device-camera-camera-lens-desk-593325/) - [Pexel](https://www.pexels.com/) | copyright [Jessica Lewis](https://www.pexels.com/@thepaintedsquare)
+	- [gallery-background-1920-min.jpg](https://www.pexels.com/photo/apple-device-camera-camera-lens-desk-593325/) - [Pexels](https://www.pexels.com/) | copyright [Jessica Lewis](https://www.pexels.com/@thepaintedsquare)
 
 - From media/logo sub-directory
-	- [pearl-min.png](https://www.flaticon.com/free-icon/knowledge_3603994) - [Flaticon](https://www.flaticon.com/) | copyright [Freepik](https://www.flaticon.com/authors/freepik)
+	- [pearl-min.png](https://www.flaticon.com/free-icon/craft_3079199) - [Flaticon](https://www.flaticon.com/) | copyright [Freepik](https://www.flaticon.com/authors/freepik)
 
 - From media/error sub-directory
 	- [no-results-found-min.jpg](https://all-free-download.com/free-vector/download/exploration-job-background-searching-man-sketch-cartoon-design_6844384.html) - [Free vectors](https://all-free-download.com/free-vector/) | copyright [BSGStudio](http://buysellgraphic.com/)
 
 - From media directory
-	- [bakerross](https://www.bakerross.ie/)
-	- [pixabay](https://pixabay.com/)
-	- [pexels](https://www.pexels.com/)
-	- [unsplash](https://unsplash.com/)
-	- [flickr](https://www.flickr.com/)
+	- [bakerross](https://www.bakerross.ie/) - all product images
+	- [](https://pixabay.com/fr/photos/parc-guell-mosa%C3%AFque-carreau-gaudi-887725/) - [Pixabay](https://pixabay.com/) | copyright [LisaRedfern](https://pixabay.com/fr/users/lisaredfern-910282/)
+	- [](https://pixabay.com/fr/photos/ouzb%C3%A9kistan-mosa%C3%AFque-mod%C3%A8le-196875/) - [Pixabay](https://pixabay.com/) | copyright [LoggaWiggler](https://pixabay.com/fr/users/loggawiggler-15/)
+	- [](https://pixabay.com/fr/photos/mosa%C3%AFque-carreau-art-c%C3%A9ramique-200866/) - [Pixabay](https://pixabay.com/) | copyright [GLady](https://pixabay.com/fr/users/glady-768/)
+	- [](https://pixabay.com/fr/photos/mur-de-graffiti-graffiti-1209761/) - [Pixabay](https://pixabay.com/) | copyright [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/)
+	- [](https://www.pexels.com/photo/child-sipping-from-pipe-graffiti-2103127/) - [Pexels](https://www.pexels.com/) | copyright [Shukhrat Umarov](https://www.pexels.com/@shukran)
+	- [](https://unsplash.com/photos/JlufluFHiZc) - [Unsplash](https://unsplash.com/) | copyright [Eyasu Etsub](https://unsplash.com/@jphotography2012)
+	- [](https://unsplash.com/photos/cdXwe6nROs8) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [](https://unsplash.com/photos/DWjucw3fsaQ) - [Unsplash](https://unsplash.com/) | copyright [Fallon Michael](https://unsplash.com/@fallonmichaeltx)
+	- [](https://unsplash.com/photos/CQ3xrqbV58s) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [](https://unsplash.com/photos/9EiJn8OJ8wo) - [Unsplash](https://unsplash.com/) | copyright [Nadia Clabassi](https://unsplash.com/@foifezza)
+	- [](https://unsplash.com/photos/xlkuA0VQshU) - [Unsplash](https://unsplash.com/) | copyright [Elsa Lilja](https://unsplash.com/@elsa_lilja)
+	- [](https://www.pexels.com/photo/doodle-comic-art-sketch-16516/) - [Pexels](https://www.pexels.com/) | copyright [khairul nizam Follow](https://www.pexels.com/@niezam)
+	- [](https://pixabay.com/fr/photos/broderie-travaux-d-aiguille-942255/) - [Pixabay](https://pixabay.com/) | copyright [bluemorphos](https://pixabay.com/fr/users/bluemorphos-1137133/)
+	- [](https://www.pexels.com/photo/toy-bear-and-thread-on-table-in-room-in-daytime-4792086/) - [Pexels](https://www.pexels.com/) | copyright [Anete Lusina](https://www.pexels.com/@anete-lusina)
+	- [](https://pixabay.com/fr/photos/peinture-peinture-acrylique-art-4105253/) - [Pixabay](https://pixabay.com/) | copyright [stux](https://pixabay.com/fr/users/stux-12364/)
+	- [](https://pixabay.com/fr/photos/mosa%C3%AFque-carreau-art-c%C3%A9ramique-200868/) - [Pixabay](https://pixabay.com/) | copyright [GLady](https://pixabay.com/fr/users/glady-768/)
+	- [](https://unsplash.com/photos/o7IsP-DbIgk) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [](https://unsplash.com/photos/lUvvRj2RzK0) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [](https://www.pexels.com/photo/art-creative-pattern-purple-5278835/) - [Pexels](https://www.pexels.com/) | copyright [Anni Roenkae](https://www.pexels.com/@anniroenkae)
+	- [](https://www.pexels.com/photo/photo-of-multicolored-illustration-2832382/) - [Pexels](https://www.pexels.com/) | copyright [Anni Roenkae](https://www.pexels.com/@anniroenkae)
+	- [](https://www.flickr.com/photos/earthafricacurio/6367436537/) - [Flickr](https://www.flickr.com/) | copyright [Ian Nicholson](https://www.flickr.com/photos/earthafricacurio/)
+	- [](https://www.flickr.com/photos/paullew/12517089325/) - [Flickr](https://www.flickr.com/) | copyright [Lawrence OP](https://www.flickr.com/photos/paullew/)
+	- [](https://www.flickr.com/photos/hundreds/111294390/) - [Flickr](https://www.flickr.com/) | copyright [max_thinks_sees](https://www.flickr.com/photos/hundreds/)
+	- [](https://www.flickr.com/photos/3sth3r/17888752/) - [Flickr](https://www.flickr.com/) | copyright [3sth3r](https://www.flickr.com/photos/3sth3r/)
+	- [](https://unsplash.com/photos/D9EgMp2V85o) - [Unsplash](https://unsplash.com/) | copyright [Toa Heftiba](https://unsplash.com/@heftiba)
 
 Back to [top](#TableOfContents)
 
