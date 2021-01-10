@@ -706,7 +706,7 @@ Back to [top](#tableOfContents)
 
 ## Credits <a name="credits"></a>
 
-- My inspiration comes from:
+My inspiration comes from:
 - [Etsy](https://www.etsy.com/) - E-commerce website focused on handmade or vintage items and craft supplies
 - [Cultura](https://www.cultura.com/) - E-commerce website specialized in cultural, arts and crafts goods and leisure activities
 
@@ -716,6 +716,7 @@ Back to [top](#tableOfContents)
 
 ### Content <a name="content"></a>
 
+Sources of the content used on this site:
 - [Baker Ross](https://www.bakerross.ie/) - E-commerce website specialized in arts and crafts supplies
 
 Back to [top](#tableOfContents)
@@ -725,9 +726,8 @@ Back to [top](#tableOfContents)
 ### Media <a name="media"></a>
 
 Sources of the images used on this site:
-
 - From media/home/hero_image sub-directory
-	- [hero-image-background-min](https://pixabay.com/fr/photos/laine-d-acier-sombre-firespin-458840/) - [Pixabay](https://pixabay.com/) | copyright [463259](https://pixabay.com/fr/users/463259-463259/)  
+	- [hero-image-background-min](https://pixabay.com/fr/photos/laine-d-acier-sombre-firespin-458840/) - [Pixabay](https://pixabay.com/) | copyright [463259 - Faizal Sugi](https://pixabay.com/fr/users/463259-463259/)  
 
 - From media/home/image_showcases sub-directory
 	- [create-beads-min](https://www.flickr.com/photos/woolgenie/11130456836/) - [Flickr](https://www.flickr.com/) | copyright [Heather](https://www.flickr.com/photos/woolgenie/)
