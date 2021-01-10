@@ -74,7 +74,7 @@
             <div class="dropdown-menu bg-white" aria-labelledby="desktop-gallery">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
-              <a href="{% url 'add_gallery' %}" class="dropdown-item">Gallery Management</a>
+              <a href="{% url 'add_gallery' %}" class="dropdown-item">Gallery management</a>
               {% endif %}
               <a href="{% url 'gallery' %}" class="dropdown-item">Customers photo gallery</a>
               <a href="{% url 'share_gallery' %}" class="dropdown-item">Share your work of art</a>
@@ -93,7 +93,7 @@
             <div class="dropdown-menu bg-white" aria-labelledby="desktop-user-options">
               {% if request.user.is_authenticated %}
               {% if request.user.is_superuser %}
-              <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+              <a href="{% url 'add_product' %}" class="dropdown-item">Product management</a>
               {% endif %}
               <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
               <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>

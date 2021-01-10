@@ -27,6 +27,7 @@ Because of an issue relative to submitting a form with an uploaded image in my d
 		- [Color Scheme](#colorScheme)
 		- [Icons](#icons)
 		- [Typography](#typography)
+	- [Wireframes](#wireframes)
 
 2. [Features](#features)
 	- [Existing Features](#existingFeatures)
@@ -85,34 +86,33 @@ Back to [top](#tableOfContents)
 :heavy_check_mark: successfully implemented
 :x: not yet implemented
 
-- :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
-- :heavy_check_mark: be able to log in.
-- :heavy_check_mark: be able to log out.
-- :heavy_check_mark: be able to register.
-- :heavy_check_mark: filter and search amongst all products.
-- :heavy_check_mark: view all products.
-- :heavy_check_mark: view a product details.
-- :heavy_check_mark: add products with an image as an admin.
-- :heavy_check_mark: add products without an image as an admin.
-- :heavy_check_mark: edit products with an image as an admin.
-- :heavy_check_mark: edit products without an image as an admin.
-- :heavy_check_mark: delete products as an admin.
-- :heavy_check_mark: view gallery images.
-- :heavy_check_mark: view a gallery image.
-- :heavy_check_mark: share a gallery image as a logged in user.
-- :heavy_check_mark: add a gallery item with an image as an admin.
-- :heavy_check_mark: add a gallery item without an image as an admin.
-- :heavy_check_mark: edit a gallery item with an image as an admin.
-- :heavy_check_mark: edit a gallery item without an image as an admin.
-- :heavy_check_mark: delete a gallery image as an admin.
-- :heavy_check_mark: approved a gallery image as an admin.
-- :heavy_check_mark: view my profile as a logged in user.
-- :heavy_check_mark: update my profile as a logged in user.
-- :heavy_check_mark: update my profile as logged in user.
-- :heavy_check_mark: add products to my bag.
-- :heavy_check_mark: checkout my order.
-- :heavy_check_mark: send a contact request.
-
+- :heavy_check_mark: view the site from any device (mobile, tablet, desktop)
+- :heavy_check_mark: be able to log in
+- :heavy_check_mark: be able to register
+- :heavy_check_mark: filter and search amongst all products
+- :heavy_check_mark: view all products
+- :heavy_check_mark: view a product details
+- :heavy_check_mark: add products with an image
+- :heavy_check_mark: add products without an image
+- :heavy_check_mark: edit products with an image
+- :heavy_check_mark: edit products without an image
+- :heavy_check_mark: delete products
+- :heavy_check_mark: view gallery images
+- :heavy_check_mark: share a gallery image
+- :heavy_check_mark: add a gallery item with an image
+- :heavy_check_mark: add a gallery item without an image
+- :heavy_check_mark: edit a gallery item with an image
+- :heavy_check_mark: edit a gallery item without an image
+- :heavy_check_mark: delete a gallery image
+- :heavy_check_mark: approved a gallery image
+- :heavy_check_mark: view my profile
+- :heavy_check_mark: update my profile
+- :heavy_check_mark: add products to my bag
+- :heavy_check_mark: update products in my bag / adjust product quantity
+- :heavy_check_mark: remove products in my bag
+- :heavy_check_mark: save delivery info to profile while checkout
+- :heavy_check_mark: checkout my order
+- :heavy_check_mark: send a contact request
 
 Back to [top](#tableOfContents)
 
@@ -164,8 +164,30 @@ Back to [top](#tableOfContents)
 
 #### Icons <a name="icons"></a>
 
-- [Font Awesome 5.14.0](https://fontawesome.com/)
-	- It fits my needs for this project
+- [Font Awesome 5.14.0](https://fontawesome.com/): It fits my needs for this project
+	- [Gallery](https://fontawesome.com/icons/images?style=solid)
+	- [My account](https://fontawesome.com/icons/user?style=solid)
+	- [Bag](https://fontawesome.com/icons/shopping-basket?style=solid)
+	- [Free worldwide delivery](https://fontawesome.com/icons/shipping-fast?style=solid)
+	- [30 days](https://fontawesome.com/icons/exchange-alt?style=solid)
+	- [Satisfaction guaranteed](https://fontawesome.com/icons/hand-holding-usd?style=solid)
+	- [Secured payment](https://fontawesome.com/icons/credit-card?style=regular)
+	- [Facebook](https://fontawesome.com/icons/facebook-f?style=brands)
+	- [Pinterest](https://fontawesome.com/icons/pinterest-p?style=brands)
+	- [Instagran](https://fontawesome.com/icons/instagram?style=brands)
+	- [Twitter](https://fontawesome.com/icons/twitter?style=brands)
+	- [YouTube](https://fontawesome.com/icons/youtube?style=brands)
+	- [Location](https://fontawesome.com/icons/map-marker-alt?style=solid)
+	- [Email](https://fontawesome.com/icons/envelope?style=solid)
+	- [Phone](https://fontawesome.com/icons/phone?style=solid)
+	- [Working hours](https://fontawesome.com/icons/building?style=solid)
+	- [Copyright](https://fontawesome.com/icons/copyright?style=regular)
+	- [Github](https://fontawesome.com/icons/github?style=brands)
+	- [Info](https://fontawesome.com/icons/info-circle?style=solid)
+	- [Exclamation mark](https://fontawesome.com/icons/exclamation-circle?style=solid)
+
+- [Flaticon](https://www.flaticon.com/): It fits my needs for this project
+	- Pearl logo: from [original version](https://www.flaticon.com/free-icon/craft_3079199) to customize in [Pearl version](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png)
 
 Back to [top](#tableOfContents)
 
@@ -177,6 +199,20 @@ Back to [top](#tableOfContents)
 	- [Open Sans](https://fonts.google.com/specimen/Open+Sans) - default font
 	- [Smythe](https://fonts.google.com/specimen/Smythe) - showcase section on home page
 	- [Crafty Girls](https://fonts.google.com/specimen/Crafty+Girls) - customer review section on home page
+
+Back to [top](#tableOfContents)
+
+---
+
+### Wireframes <a name="wireframes"></a>
+
+I have used Balsamiq Wireframes for my wireframes because:
+
+- Code Institute have provided all students a free licence. I got to use this software a few years ago and I am pretty happy to get the chance to use it again.
+- The simplicity, rapidity and ease of use by focusing on structure and content.
+- My wireframes for this project can be found here in the [wireframes](https://github.com/sctlcd/pearl/tree/master/design/wireframes/pearl-wireframes.bmpr) sub-directory.
+
+Remark: There is a bug at the opening of the balsamiq file: in each page on the mobile version, there are icon overlays on the right corner.
 
 Back to [top](#tableOfContents)
 
@@ -457,6 +493,37 @@ friendly_name NULL varchar
 
 :heavy_check_mark: *as expected*
 :x: *not as expected*
+n/a *not applicable*
+
+| User story | authenticated as admin | authenticated as regular user | non authenticated user | note |
+| :--- | :--- | :---| :--- | :--- |
+| view the site from any device (mobile, tablet, desktop) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| be able to log in |  |  |  |  |
+| be able to register |  |  |  |  |
+| filter and search amongst all products |  |  |  |  |
+| view all products |  |  |  |  |
+| view a product details |  |  |  |  |
+| add products with an image |  |  |  |  |
+| add products without an image |  |  |  |  |
+| edit products with an image |  |  |  |  |
+| edit products without an image |  |  |  |  |
+| delete products |  |  |  |  |
+| view gallery images |  |  |  |  |
+| share a gallery image |  |  |  |  |
+| add a gallery item with an image |  |  |  |  |
+| add a gallery item without an image |  |  |  |  |
+| edit a gallery item with an image |  |  |  |  |
+| edit a gallery item without an image |  |  |  |  |
+| delete a gallery image |  |  |  |  |
+| approved a gallery image |  |  |  |  |
+| view my profile |  |  |  |  |
+| update my profile |  |  |  |  |
+| add products to my bag |  |  |  |  |
+| update products in my bag / adjust product quantity |  |  |  |  |
+| remove products in my bag |  |  |  |  |
+| save delivery info to profile while checkout |  |  |  |  |
+| checkout my order |  |  |  |  |
+| send a contact request |  |  |  |  |
 
 - :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
 - :heavy_check_mark: be able to log in.
@@ -471,7 +538,6 @@ friendly_name NULL varchar
 - :heavy_check_mark: edit products without an image as an admin.
 - :heavy_check_mark: delete products as an admin.
 - :heavy_check_mark: view gallery images.
-- :heavy_check_mark: view a gallery image.
 - :heavy_check_mark: share a gallery image as a logged in user.
 - :heavy_check_mark: add a gallery item with an image as an admin.
 - :heavy_check_mark: add a gallery item without an image as an admin.
@@ -481,7 +547,6 @@ friendly_name NULL varchar
 - :heavy_check_mark: approved a gallery image as an admin.
 - :heavy_check_mark: view my profile as a logged in user.
 - :heavy_check_mark: update my profile as a logged in user.
-- :heavy_check_mark: update my profile as logged in user.
 - :heavy_check_mark: add products to my bag.
 - :heavy_check_mark: checkout my order.
 - :heavy_check_mark: send a contact request.
