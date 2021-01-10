@@ -1,12 +1,12 @@
-# [Pearl](https://sctlcd-pearl2.herokuapp.com/)
+# [Pearl](https://sctlcd-pearl3.herokuapp.com/)
 
 <img src="https://github.com/sctlcd/pearl/blob/master/design/mockups.png" alt="Pearl" width="800">
 <dl>
-<dd>Do you like creative activities, arts and crafts and making things by yourself with creativity, happiness and your own two hands ?</dd>
+<dd>Do you like <strong>creative activities</strong>, <strong>arts and crafts</strong> and <strong>making things by yourself</strong> with creativity, happiness and your own two hands ?</dd>
 <dd>Then this website is a <strong>pearl</strong> to you!</dd>
 <dd>At Pearl's you can <strong>purchase arts and crafts supplies</strong> and <strong>sharing customers' work of art</strong> in the meantime as <strong>getting inspiration</strong> from other customers' creative work in the <strong>gallery</strong>.</dd>
 
-[Let me show you!](https://sctlcd-pearl2.herokuapp.com/)
+[Let me show you!](https://sctlcd-pearl3.herokuapp.com/)
 <br />
 <br />
 **Warning**
@@ -15,117 +15,112 @@ Because of an issue relative to submitting a form with an uploaded image in my d
 
 ---
 
-# Table of Contents <a name="TableOfContents"></a>
+# Table of Contents <a name="tableOfContents"></a>
 
-1. [About](#About)
-	- [Why this project?](#WhyThisProject)
+1. [About](#about)
+	- [Why this project?](#whyThisProject)
 
-1. [UX](#UX)
+1. [UX](#ux)
+	- [User Stories](#userStories)
+	- [Design](#design)
+		- [Framework](#framework)
+		- [Color Scheme](#colorScheme)
+		- [Icons](#icons)
+		- [Typography](#typography)
+	- [Wireframes](#wireframes)
 
-	- [User Stories](#UserStories)
-	- [Design](#Design)
-		- [Framework](#Framework)
-		- [Color Scheme](#ColorScheme)
-		- [Icons](#Icons)
-		- [Typography](#Typography)
+2. [Features](#features)
+	- [Existing Features](#existingFeatures)
 
-2. [Features](#Features)
+3. [Technologies Used](#technologiesUsed)
+	- [Front-End Technologies](#frontEndTechnologies)
+  - [Back-End Technologies](#backEndTechnologies)
 
-	- [Existing Features](#ExistingFeatures)
+4. [Relational scheme](#relationalScheme)
 
-3. [Technologies Used](#TechnologiesUsed)
+5. [Testing](#testing)
+	- [User story validation](#userStoryValidation)
+	- [Layout responsiveness](#layoutResponsiveness)
+	- [Compatibility](#compatibility)
+	- [Testing left](#testingLeft)
+	- [Validators](#validators)
+	- [Known Issues](#knownIssues)
 
-	- [Front-End Technologies](#Front-end-technologies)
-  - [Back-End Technologies](#Back-end-technologies)
+6. [Deployment](#deployment)
+	- [Deployment – Run locally](#deploymentRunLocally)
+	- [Deployment – Live website](#deploymentLiveWebsite)
 
-4. [Relational scheme](#RelationalScheme)
 
-5. [Testing](#Testing)
-
-	- [User story validation](#UserStoryValidation)
-	- [Layout responsiveness](#LayoutResponsiveness)
-	- [Compatibility](#Compatibility)
-	- [Testing left](#Testingleft)
-	- [Validators](#Validators)
-	- [Known Issues](#KnownIssues)
-
-6. [Deployment](#Deployment)
-
-	- [Deployment – Live website](#Deploymentlivewebsite)
-	- [Deployment – Run locally](#Deploymentrunlocally)
-
-7. [Credits](#Credits)
-
-	- [Content](#Content)
-	- [Media](#Media)
-	- [Code](#Code)
-	- [Acknowledgements](#Acknowledgements)
+7. [Credits](#credits)
+	- [Content](#content)
+	- [Media](#media)
+	- [Code](#code)
+	- [Acknowledgements](#acknowledgements)
 
 ---
 
-## About <a name="About"></a>
+## About <a name="about"></a>
 
 The primary purpose of Pearl is to purchase arts and crafts supplies. Its secondary purpose is to share customers' work of art in the meantime as getting inspiration from other customers' creative work in the gallery. And this anytime, anywhere as this application is available on various devices as desktops, tablets and mobile.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Why this project? <a name="WhyThisProject"></a>
+### Why this project? <a name="whyThisProject"></a>
 
 This project is part of my [Code Institute](https://codeinstitute.net/) Full Stack Software Development studies, the **Full Stack Frameworks With Django** module. The objective of this milestone project is building a full-stack site based around business logic used to control a centrally-owned dataset, setting up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service.
 
 My modern responsive e-commerce arts and crafts supplies site is built using HTML, CSS, Material Design for Bootstrap, JavaScript, jQuery, Django, Python, PostgreSQL.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-## UX  <a name="UX"></a>
+## UX  <a name="ux"></a>
 
-### User Stories <a name="UserStories"></a>
+### User Stories <a name="userStories"></a>
 
 "***As a user, I want to _____***"
 
 :heavy_check_mark: successfully implemented
 :x: not yet implemented
 
-- :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
-- :heavy_check_mark: be able to log in.
-- :heavy_check_mark: be able to log out.
-- :heavy_check_mark: be able to register.
-- :heavy_check_mark: filter and search amongst all products.
-- :heavy_check_mark: view all products.
-- :heavy_check_mark: view a product details.
-- :heavy_check_mark: add products with an image as an admin.
-- :heavy_check_mark: add products without an image as an admin.
-- :heavy_check_mark: edit products with an image as an admin.
-- :heavy_check_mark: edit products without an image as an admin.
-- :heavy_check_mark: delete products as an admin.
-- :heavy_check_mark: view gallery images.
-- :heavy_check_mark: view a gallery image.
-- :heavy_check_mark: share a gallery image as a logged in user.
-- :heavy_check_mark: add a gallery item with an image as an admin.
-- :heavy_check_mark: add a gallery item without an image as an admin.
-- :heavy_check_mark: edit a gallery item with an image as an admin.
-- :heavy_check_mark: edit a gallery item without an image as an admin.
-- :heavy_check_mark: delete a gallery image as an admin.
-- :heavy_check_mark: approved a gallery image as an admin.
-- :heavy_check_mark: view my profile as a logged in user.
-- :heavy_check_mark: update my profile as a logged in user.
-- :heavy_check_mark: update my profile as logged in user.
-- :heavy_check_mark: add products to my bag.
-- :heavy_check_mark: checkout my order.
-- :heavy_check_mark: send a contact request.
+- :heavy_check_mark: view the site from any device (mobile, tablet, desktop)
+- :heavy_check_mark: be able to log in
+- :heavy_check_mark: be able to register
+- :heavy_check_mark: filter and search amongst all products
+- :heavy_check_mark: view all products
+- :heavy_check_mark: view a product details
+- :heavy_check_mark: add products with an image
+- :heavy_check_mark: add products without an image
+- :heavy_check_mark: edit products with an image
+- :heavy_check_mark: edit products without an image
+- :heavy_check_mark: delete products
+- :heavy_check_mark: view gallery images
+- :heavy_check_mark: share a gallery image
+- :heavy_check_mark: add a gallery item with an image
+- :heavy_check_mark: add a gallery item without an image
+- :heavy_check_mark: edit a gallery item with an image
+- :heavy_check_mark: edit a gallery item without an image
+- :heavy_check_mark: delete a gallery image
+- :heavy_check_mark: approved a gallery image
+- :heavy_check_mark: view my profile
+- :heavy_check_mark: update my profile
+- :heavy_check_mark: add products to my bag
+- :heavy_check_mark: update products in my bag / adjust product quantity
+- :heavy_check_mark: remove products in my bag
+- :heavy_check_mark: save delivery info to profile while checkout
+- :heavy_check_mark: checkout my order
+- :heavy_check_mark: send a contact request
 
-
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Design <a name="Design"></a>
+### Design <a name="design"></a>
 
-I did choose a warm, joyful and energetic orange ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601` combined with sober and reliable colors ranging between off-white ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa` and black ![#000](https://placehold.it/15/000/000) `#000` with shades of grey (more color details in [Color Scheme](#ColorScheme) section).
+I did choose a warm, joyful and energetic orange ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601` combined with sober and reliable colors ranging between off-white ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa` and black ![#000](https://placehold.it/15/000/000) `#000` with shades of grey (more color details in [Color Scheme](#colorScheme) section).
 <br />
 I first choose my [logo](https://www.flaticon.com/free-icon/craft_3079199) from Flaticon(https://www.flaticon.com) which I customized in [Pearl logo](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png).
 <br />
@@ -135,11 +130,11 @@ I finally selected the main home page image, a [fire spin](https://github.com/sc
 <br />
 I decided to implement a customers' gallery and offering the possibility to share your own piece of art while getting inspiration from other customers' art work. I believe this feature is a very interesting one as it involves the customers/makes the customers participate in the website building. They are actor, in a way, of the gallery page building and its content.  
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-#### Framework <a name="Framework"></a>
+#### Framework <a name="framework"></a>
 
 - [Material Design for Bootstrap 4.19.1](https://mdbootstrap.com/)
 	- I really like the modern and clean layout of Material Design and the ease of use and standards of Bootstrap so I wanted to give a try and getting familiar with Material Design for Bootstrap
@@ -147,11 +142,11 @@ Back to [top](#TableOfContents)
 	- For the purpose of keeping the JavaScript minimal
 - [Django 3.1.1](https://www.djangoproject.com/)
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-#### Color Scheme <a name="ColorScheme"></a>
+#### Color Scheme <a name="colorScheme"></a>
 
 - ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601`
 - ![#6a6a6e](https://placehold.it/15/6a6a6e/6a6a6e) `#6a6a6e`
@@ -163,33 +158,69 @@ Back to [top](#TableOfContents)
 - ![#dee2e6](https://placehold.it/15/dee2e6/dee2e6) `#dee2e6`
 - ![#000](https://placehold.it/15/000/000) `#000`
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-#### Icons <a name="Icons"></a>
+#### Icons <a name="icons"></a>
 
-- [Font Awesome 5.14.0](https://fontawesome.com/)
-	- It fits my needs for this project
+- [Font Awesome 5.14.0](https://fontawesome.com/): It fits my needs for this project
+	- [Gallery](https://fontawesome.com/icons/images?style=solid)
+	- [My account](https://fontawesome.com/icons/user?style=solid)
+	- [Bag](https://fontawesome.com/icons/shopping-basket?style=solid)
+	- [Free worldwide delivery](https://fontawesome.com/icons/shipping-fast?style=solid)
+	- [30 days](https://fontawesome.com/icons/exchange-alt?style=solid)
+	- [Satisfaction guaranteed](https://fontawesome.com/icons/hand-holding-usd?style=solid)
+	- [Secured payment](https://fontawesome.com/icons/credit-card?style=regular)
+	- [Facebook](https://fontawesome.com/icons/facebook-f?style=brands)
+	- [Pinterest](https://fontawesome.com/icons/pinterest-p?style=brands)
+	- [Instagran](https://fontawesome.com/icons/instagram?style=brands)
+	- [Twitter](https://fontawesome.com/icons/twitter?style=brands)
+	- [YouTube](https://fontawesome.com/icons/youtube?style=brands)
+	- [Location](https://fontawesome.com/icons/map-marker-alt?style=solid)
+	- [Email](https://fontawesome.com/icons/envelope?style=solid)
+	- [Phone](https://fontawesome.com/icons/phone?style=solid)
+	- [Working hours](https://fontawesome.com/icons/building?style=solid)
+	- [Copyright](https://fontawesome.com/icons/copyright?style=regular)
+	- [Github](https://fontawesome.com/icons/github?style=brands)
+	- [Info](https://fontawesome.com/icons/info-circle?style=solid)
+	- [Exclamation mark](https://fontawesome.com/icons/exclamation-circle?style=solid)
 
-Back to [top](#TableOfContents)
+- [Flaticon](https://www.flaticon.com/): It fits my needs for this project
+	- Pearl logo: from [original version](https://www.flaticon.com/free-icon/craft_3079199) to customize in [Pearl version](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png)
+
+Back to [top](#tableOfContents)
 
 ---
 
-#### Typography <a name="Typography"></a>
+#### Typography <a name="typography"></a>
 
 - [Google Fonts](https://fonts.google.com/) were used across the site:
 	- [Open Sans](https://fonts.google.com/specimen/Open+Sans) - default font
 	- [Smythe](https://fonts.google.com/specimen/Smythe) - showcase section on home page
 	- [Crafty Girls](https://fonts.google.com/specimen/Crafty+Girls) - customer review section on home page
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-## Features <a name="Features"></a>
+### Wireframes <a name="wireframes"></a>
 
-### Existing Features <a name="ExistingFeatures"></a>
+I have used Balsamiq Wireframes for my wireframes because:
+
+- Code Institute have provided all students a free licence. I got to use this software a few years ago and I am pretty happy to get the chance to use it again.
+- The simplicity, rapidity and ease of use by focusing on structure and content.
+- My wireframes for this project can be found here in the [wireframes](https://github.com/sctlcd/pearl/tree/master/design/wireframes/pearl-wireframes.bmpr) sub-directory.
+
+Remark: There is a bug at the opening of the balsamiq file: in each page on the mobile version, there are icon overlays on the right corner.
+
+Back to [top](#tableOfContents)
+
+---
+
+## Features <a name="features"></a>
+
+### Existing Features <a name="existingFeatures"></a>
 
 #####  Navigation bar
 
@@ -202,7 +233,7 @@ Back to [top](#TableOfContents)
 - 3 sections : Company presentation, links to other pages of the website (not implemented), contact section with a contact button redirecting to the contact page.
 - copyright mention with my name and my gitbhub repository
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
@@ -218,7 +249,7 @@ Back to [top](#TableOfContents)
 
 - A page with product details: name, description, price, rating, product image
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
@@ -240,7 +271,7 @@ Back to [top](#TableOfContents)
 - Add Gallery item page with add gallery item form
 - EditGallery item page with edit gallery item form
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
@@ -257,7 +288,7 @@ Back to [top](#TableOfContents)
 
 - To checkout orders
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
@@ -266,7 +297,7 @@ Back to [top](#TableOfContents)
 - Humoristic picture and message letting know the user no result have been found matching with his/her search.
 - Link redirecting to Products Home page
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
@@ -300,11 +331,11 @@ USE_TZ = True
 DATETIME_FORMAT = "Y-m-d H:i"
 ```
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-## Technologies Used <a name="TechnologiesUsed"></a>
+## Technologies Used <a name="technologiesUsed"></a>
 
 - [GitHub](https://github.com/) - Used as remote storage of my code online.
 - [Atom](https://atom.io/) - Used as a local IDE.
@@ -312,11 +343,11 @@ Back to [top](#TableOfContents)
 - [Techsini](https://techsini.com/multi-mockup/) - Used to generate multi-device website mockup
 - [Ngrok 2.3.35](https://ngrok.com/) - Expose a local web server to the public internet over secure tunnels
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Front-End Technologies <a name="Front-end-technologies"></a>
+### Front-End Technologies <a name="frontEndTechnologies"></a>
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used as the base for markup text.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
@@ -326,26 +357,26 @@ Back to [top](#TableOfContents)
 - [Stripe API](https://stripe.com/docs/api?lang=python) - Used to make secured payments
 - [Amazon AWS S3](https://aws.amazon.com/) - Used to store staticfiles and media folders and files.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Back-End Technologies <a name="Back-end-technologies"></a>
+### Back-End Technologies <a name="backEndTechnologies"></a>
 
 - [Python 3.8](https://www.python.org/) - Used as the back-end programming language.
 - [Django 3.1.1](https://www.djangoproject.com/) - Used as Python web framework.
 - [Heroku](https://www.heroku.com/) - Used for app hosting.
 - [PostgreSQL](https://www.postgresql.org/) - Used as relational SQL database plugin via Heroku.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-## Relational scheme <a name="RelationalScheme"></a>
+## Relational scheme <a name="relationalScheme"></a>
 
 The Relational scheme diagram can be found [here](https://github.com/sctlcd/pearl/blob/master/design/relational-scheme.png)
 
-Pear database table details:
+Pearl database table details:
 
 **category**
 ```
@@ -456,12 +487,43 @@ name NULL varchar
 friendly_name NULL varchar
 ```
 
-## Testing <a name="Testing"></a>
+## Testing <a name="testing"></a>
 
-### User story validation <a name="UserStoryValidation"></a>
+### User story validation <a name="userStoryValidation"></a>
 
 :heavy_check_mark: *as expected*
 :x: *not as expected*
+n/a *not applicable*
+
+| User story | authenticated as admin | authenticated as regular user | non authenticated user | note |
+| :--- | :--- | :---| :--- | :--- |
+| view the site from any device (mobile, tablet, desktop) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| be able to log in |  |  |  |  |
+| be able to register |  |  |  |  |
+| filter and search amongst all products |  |  |  |  |
+| view all products |  |  |  |  |
+| view a product details |  |  |  |  |
+| add products with an image |  |  |  |  |
+| add products without an image |  |  |  |  |
+| edit products with an image |  |  |  |  |
+| edit products without an image |  |  |  |  |
+| delete products |  |  |  |  |
+| view gallery images |  |  |  |  |
+| share a gallery image |  |  |  |  |
+| add a gallery item with an image |  |  |  |  |
+| add a gallery item without an image |  |  |  |  |
+| edit a gallery item with an image |  |  |  |  |
+| edit a gallery item without an image |  |  |  |  |
+| delete a gallery image |  |  |  |  |
+| approved a gallery image |  |  |  |  |
+| view my profile |  |  |  |  |
+| update my profile |  |  |  |  |
+| add products to my bag |  |  |  |  |
+| update products in my bag / adjust product quantity |  |  |  |  |
+| remove products in my bag |  |  |  |  |
+| save delivery info to profile while checkout |  |  |  |  |
+| checkout my order |  |  |  |  |
+| send a contact request |  |  |  |  |
 
 - :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
 - :heavy_check_mark: be able to log in.
@@ -476,7 +538,6 @@ friendly_name NULL varchar
 - :heavy_check_mark: edit products without an image as an admin.
 - :heavy_check_mark: delete products as an admin.
 - :heavy_check_mark: view gallery images.
-- :heavy_check_mark: view a gallery image.
 - :heavy_check_mark: share a gallery image as a logged in user.
 - :heavy_check_mark: add a gallery item with an image as an admin.
 - :heavy_check_mark: add a gallery item without an image as an admin.
@@ -486,53 +547,37 @@ friendly_name NULL varchar
 - :heavy_check_mark: approved a gallery image as an admin.
 - :heavy_check_mark: view my profile as a logged in user.
 - :heavy_check_mark: update my profile as a logged in user.
-- :heavy_check_mark: update my profile as logged in user.
 - :heavy_check_mark: add products to my bag.
 - :heavy_check_mark: checkout my order.
 - :heavy_check_mark: send a contact request.
 
 ---
 
-### Layout responsiveness <a name="LayoutResponsiveness"></a>
+### Layout responsiveness <a name="layoutResponsiveness"></a>
 
 |  | Moto G4 | Galaxy S5 | Pixel 2 | Pixel 2 XL | iPhone 5/SE | iPhone 6/7/8 | iPhone 6/7/8 Plus | iPhone X | Surface Duo | iPad | iPad Pro | Desktop 1024px | Desktop > 1200px |
 | :--- | :--- | :---| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| website is responsive <= 767 px | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | n/a | n/a | n/a | n/a |
-| website is responsive >= 768 px | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Good | Good | Good | Good |
-|**bag app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  |  | Good |  | Good |  | Good |  | Good |  |
-| Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
-| Footer: text / links | Good |  |  Good |  | Good |  | Good |  | Good |  | Good |  | Good |
-|**checkout app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Content page: Images / icons text / links / buttons / text | Good |  |  Good |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Footer: text / links | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-|**Contact app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
-| Footer: text / links | Good |  |  Good | Good |  | Good |  | Good |  | Good |  |Good  |  |
-|**Gallery app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
-| Footer: text / links | Good |  |  Good | Good |  | Good |  | Good |  | Good |  |Good  |  |
-|**Home app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
-| Footer: text / links | Good |  |  Good | Good |  | Good |  | Good |  | Good |  |Good  |  |
-|**Product app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
-| Footer: text / links | Good |  |  Good | Good |  | Good |  | Good |  | Good |  |Good  |  |
-|**Profile app** |
-| Navigation bar: logo / links / search | Good |  | Good  |  | Good |  | Good |  | Good |  | Good |  | Good |
-| Content page: Images / icons text / links / buttons / text |  | Good |   | Good |  | Good |  | Good |  | Good |  | Good |  |
-| Footer: text / links | Good |  |  Good | Good |  | Good |  | Good |  | Good |  |Good  |  |
+| website is responsive <= 992px | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | n/a | n/a | n/a | n/a |
+| website is responsive >= 992 px | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | Good | Good | Good | Good |
+| Navigation bar: logo / links / search / menu| Good | Good | Good  | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| Footer: text / links / buttons | Good | Good |  Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| links / urls work | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| Images work | Good | Good | Good  | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| Renders as expected | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| Back-End Functionality | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
+| Stripe payment works | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good | Good |
 
-Back to [top](#TableOfContents)
+The site begins to overflow-X at < 280px.
+<br>
+Some elements and product images are small on mobile, especially under 360px.
+
+Back to [top](#tableOfContents)
 
 ---
 
-### Compatibility <a name="Compatibility"></a>
+### Compatibility <a name="compatibility"></a>
+
+#### Browser compatibility
 
 I tested the website across the 6 main browsers in both desktop and mobile configuration to ensure a large number of users can use it successfully.
 
@@ -552,24 +597,32 @@ I tested the website across the 6 main browsers in both desktop and mobile confi
 
 - Safari v.5.1.7: It’s an outdated version and lacks many of the features present in the latest version of Safari. The last version of Safari for Windows was released on May 9, 2012.
 
-Back to [top](#TableOfContents)
+#### Chrome's DevTools Audit Report
+
+| Performance | Accessibility | Best Practices | SEO |
+| :---: | :---: | :---: | :---: |
+| 89% | 82% | 93% | 90% |
+
+The Chrome DevTools Audit Report can be found in my [testing folder](https://github.com/sctlcd/pearl/tree/master/testing/devtools-audit-report.png)
+
+Back to [top](#tableOfContents)
 
 ---
 
-### Testing left <a name="Testingleft"></a>
+### Testing left <a name="testingLeft"></a>
 
 - There is no way to install the latest version of the Safari browser on Windows 10 as Apple stopped developing Safari for Windows operating system long ago.
 For testing this website on the latest version of Safari, I will have to install the newest version of macOS on Windows 10 in a virtual machine.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Validators <a name="Validators"></a>
+### Validators <a name="validators"></a>
 
 **HTML**
 - [W3C HTML Validator](https://validator.w3.org/)
-	- Django template syntax not understood
+	- Django Template elements not recognized: {{ variable }} {% for %} {% if %} etc.
 	- No error
 
 **CSS**
@@ -578,6 +631,7 @@ Back to [top](#TableOfContents)
 
 **Javascript**
 - [Javascript Validator](https://jshint.com/)
+	- '$' is not defined. This is for jQuery. 'STRIPE' is not defined. This is for Stripe.
 	- No error
 
 **Chrome DevTools**
@@ -588,23 +642,62 @@ Back to [top](#TableOfContents)
 - [Python validator](http://pep8online.com/)
  - No error
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Known Issues <a name="KnownIssues"></a>
+### Known Issues <a name="knownIssues"></a>
 
-- top/down page visible when scroll down then scroll up to window scroll = 0 when mobile menu is collapse
+- If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible.  
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-## Deployment <a name="Deployment"></a>
+## Deployment <a name="deployment"></a>
 
-### Deployment – Live Website <a name="Deploymentlivewebsite"></a>
+### Deployment – Run Locally <a name="deploymentRunLocally"></a>
+
+It's highly recommended to work in a virtual environment, but not absolutely required.
+
+In order to run this project locally on your own system, you will need the following installed (as a bare minimum):
+
+- [Python3](https://www.python.org/downloads) to run the application.
+- [PIP](https://pip.pypa.io/en/stable/installing) to install all app requirements.
+- [GIT](https://www.atlassian.com/git/tutorials/install-git) for cloning and version control.
+
+Next, there's a series of steps to take in order to proceed with local deployment:
+
+- Clone this GitHub repository by either clicking the green "*Clone or download*" button above in order to download the project as a zip-file (remember to unzip it first), or by entering the following command into the Git CLI terminal:
+    - `git clone https://github.com/sctlcd/pearl.git`
+- Navigate to the correct file location after unpacking the files.
+    - `cd <path to folder>`
+- Create a `.env` file with your own credentials. An example *.env* file can be found here ([.env_sample](project/.env_sample)).
+    - *Note: the example .env file contains environmental variables for both local and remote deployment. (see below for remote deployment details)*
+- Install all requirements from the [requirements.txt](project/requirements.txt) file using this command:
+    - `sudo -H pip3 -r requirements.txt`
+- In the IDE terminal, use the following command to launch the Django project:
+    - `python manage.py runserver`
+- The Django server should be running locally now on **http://127.0.0.1:8000** (or similar). If it doesn't automatically open, you can copy/paste it into your browser of choice.
+- When you run the Django server for the first time, it should create a new *SQLite3* database file: **db.sqlite3**
+- Next, you'll need to make migrations to create the database schema:
+    - `python manage.py makemigrations`
+    - `python manage.py migrate`
+- In order to access the Django *Admin Panel*, you must generate a superuser:
+    - `python manage.py createsuperuser`
+    - (assign an admin username, email, and secure password)
+
+Once the database migrations and superuser have been successfully completed, Django should migrate the existing *migrations.py* files from each app to configure the following relational schema:
+
+- [Relational Schema](https://github.com/sctlcd/pearl/blob/master/design/relational-scheme.png)
+
+Back to [top](#tableOfContents)
+
+---
+
+### Deployment – Live Website <a name="deploymentLiveWebsite"></a>
 
 This site is currently deployed on [Heroku](https://www.heroku.com/) using the **master** branch on GitHub. Once you have the project setup locally, you can proceed to deploy it remotely with the following steps:
 
@@ -672,103 +765,87 @@ This site is currently deployed on [Heroku](https://www.heroku.com/) using the *
 
 Congratulations! Your project should be completely setup and ready for remote deployment!
 
-### Deployment – Run Locally <a name="Deploymentrunlocally"></a>
-
-It's highly recommended to work in a virtual environment, but not absolutely required.
-
-In order to run this project locally on your own system, you will need the following installed (as a bare minimum):
-
-- [Python3](https://www.python.org/downloads) to run the application.
-- [PIP](https://pip.pypa.io/en/stable/installing) to install all app requirements.
-- [GIT](https://www.atlassian.com/git/tutorials/install-git) for cloning and version control.
-
-Next, there's a series of steps to take in order to proceed with local deployment:
-
-- Clone this GitHub repository by either clicking the green "*Clone or download*" button above in order to download the project as a zip-file (remember to unzip it first), or by entering the following command into the Git CLI terminal:
-    - `git clone https://github.com/sctlcd/pearl.git`
-- Navigate to the correct file location after unpacking the files.
-    - `cd <path to folder>`
-- Create a `.env` file with your own credentials. An example *.env* file can be found here ([.env_sample](project/.env_sample)).
-    - *Note: the example .env file contains environmental variables for both local and remote deployment. (see below for remote deployment details)*
-- Install all requirements from the [requirements.txt](project/requirements.txt) file using this command:
-    - `sudo -H pip3 -r requirements.txt`
-- In the IDE terminal, use the following command to launch the Django project:
-    - `python manage.py runserver`
-- The Django server should be running locally now on **http://127.0.0.1:8000** (or similar). If it doesn't automatically open, you can copy/paste it into your browser of choice.
-- When you run the Django server for the first time, it should create a new *SQLite3* database file: **db.sqlite3**
-- Next, you'll need to make migrations to create the database schema:
-    - `python manage.py makemigrations`
-    - `python manage.py migrate`
-- In order to access the Django *Admin Panel*, you must generate a superuser:
-    - `python manage.py createsuperuser`
-    - (assign an admin username, email, and secure password)
-
-Once the database migrations and superuser have been successfully completed, Django should migrate the existing *migrations.py* files from each app to configure the following relational schema:
-
-[Relational Schema](https://github.com/sctlcd/pearl/blob/master/design/relational-scheme.png)
-
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-## Credits <a name="Credits"></a>
+## Credits <a name="credits"></a>
 
-- My inspiration comes from:
+My inspiration comes from:
 - [Etsy](https://www.etsy.com/) - E-commerce website focused on handmade or vintage items and craft supplies
 - [Cultura](https://www.cultura.com/) - E-commerce website specialized in cultural, arts and crafts goods and leisure activities
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Content <a name="Content"></a>
+### Content <a name="content"></a>
 
+Sources of the content used on this site:
 - [Baker Ross](https://www.bakerross.ie/) - E-commerce website specialized in arts and crafts supplies
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Media <a name="Media"></a>
+### Media <a name="media"></a>
 
 Sources of the images used on this site:
-
 - From media/home/hero_image sub-directory
-	- [](https://pixabay.com/fr/photos/outil-outils-%C3%A9quipement-travail-1957451/) - [Pixabay](https://pixabay.com/) | copyright [coyot](https://pixabay.com/fr/users/coyot-2009089/)
-	- [](https://pixabay.com/fr/photos/laine-d-acier-sombre-firespin-458840/) - [Pixabay](https://pixabay.com/) | copyright [463259](https://pixabay.com/fr/users/463259-463259/)  
+	- [hero-image-background-min](https://pixabay.com/fr/photos/laine-d-acier-sombre-firespin-458840/) - [Pixabay](https://pixabay.com/) | copyright [463259 - Faizal Sugi](https://pixabay.com/fr/users/463259-463259/)  
 
 - From media/home/image_showcases sub-directory
-	- [](https://www.flickr.com/photos/woolgenie/11130456836/in/photolist-hXyv3d-5Y9E3c-5nT1q6-9fntLS-hw5rUx-bqVeMj-fdLe7t-BEdCfZ-soJx4-bNxP4i-63nP6c-e5cPNV-ckHujG-a2CVXo-8cvxSy-db7Yc5-81Y6dy-cfSt2L-dy4o3n-6fhExi-6p7Cpn-o9UymA-4wiG4Q-gwcN4-7t4EFt-7tp6xA-6UzTPj-7C4uvk-9Zzhxg-8pfMEs-aAhfP5-CZhs-7teK8f-biUirX-7jSHo1-4m89zu-7viAh3-6bwUfh-oxL6Z-7viAZS-iSoZF-5dtWk7-dLLYgg-4e37c3-8fi2Lx-85fwdc-rWakmW-dC8TzU-dgMAa9-2ehg9Ey) - [Flickr](https://www.flickr.com) | copyright [Heather](https://www.flickr.com/photos/woolgenie/)
-	- [](https://www.pexels.com/photo/assorted-color-great-board-decor-lot-1539581/) - [Pexels](https://www.pexels.com/) | copyright [Tim Mossholder](https://www.pexels.com/@timmossholder)
-	- [](https://www.flickr.com/photos/wespeck/4473683746/) - [Flickr](https://www.flickr.com) | copyright [gfpeck](https://www.flickr.com/photos/wespeck/)
-	- [](https://www.flickr.com/photos/mikecogh/43105291024/) - [Flickr](https://www.flickr.com) | copyright [Michael Coghlan](https://www.flickr.com/photos/mikecogh/)
+	- [create-beads-min](https://www.flickr.com/photos/woolgenie/11130456836/) - [Flickr](https://www.flickr.com/) | copyright [Heather](https://www.flickr.com/photos/woolgenie/)
+	- [create-grafiti-min](https://www.flickr.com/photos/rem60/31635422637/) - [Flickr](https://www.flickr.com/) | copyright [Rosemary Miklitsch](https://www.flickr.com/photos/rem60/)
+	- [create-mosaic-min](https://www.flickr.com/photos/mikecogh/43105291024/) - [Flickr](https://www.flickr.com/) | copyright [Michael Coghlan](https://www.flickr.com/photos/mikecogh/)
 
 - From media/home/testimonials sub-directory
-	- https://pixabay.com/fr/photos/mod%C3%A8le-femme-portrait-336658/  Image par Free-Photos de Pixabay
-	- https://pixabay.com/fr/photos/jeune-fille-%C3%A9changisme-coiffure-1245835/ Image par Free-Photos de Pixabay
-	- https://www.pexels.com/photo/portrait-photo-of-man-in-white-crew-neck-t-shirt-with-assorted-hand-tools-in-background-1139743/ de Juan Pablo Serrano Arenas https://www.pexels.com/@juanpphotoandvideo
+	- [female-2-min](https://pixabay.com/fr/photos/mod%C3%A8le-femme-portrait-336658/) - [Pixabay](https://pixabay.com/) | copyright [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/)
+	- [female-1-min](https://pixabay.com/fr/photos/jeune-fille-%C3%A9changisme-coiffure-1245835/) - [Pixabay](https://pixabay.com/) | copyright [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/)
+	- [male-1-min](https://www.pexels.com/photo/portrait-photo-of-man-in-white-crew-neck-t-shirt-with-assorted-hand-tools-in-background-1139743/) - [Pexels](www.pexels.com) | copyright [Juan Pablo Serrano Arenas](https://www.pexels.com/@juanpphotoandvideo)
 
 - From media/home/gallery sub-directory
-	- [gallery-background-1920-min.jpg](https://www.pexels.com/photo/apple-device-camera-camera-lens-desk-593325/) - [Pexel](https://www.pexels.com/) | copyright [Jessica Lewis](https://www.pexels.com/@thepaintedsquare)
+	- [gallery-background-1920-min](https://www.pexels.com/photo/apple-device-camera-camera-lens-desk-593325/) - [Pexels](https://www.pexels.com/) | copyright [Jessica Lewis](https://www.pexels.com/@thepaintedsquare)
 
 - From media/logo sub-directory
-	- [pearl-min.png](https://www.flaticon.com/free-icon/knowledge_3603994) - [Flaticon](https://www.flaticon.com/) | copyright [Freepik](https://www.flaticon.com/authors/freepik)
+	- [pearl-min](https://www.flaticon.com/free-icon/craft_3079199) - [Flaticon](https://www.flaticon.com/) | copyright [Freepik](https://www.flaticon.com/authors/freepik)
 
 - From media/error sub-directory
-	- [no-results-found-min.jpg](https://all-free-download.com/free-vector/download/exploration-job-background-searching-man-sketch-cartoon-design_6844384.html) - [Free vectors](https://all-free-download.com/free-vector/) | copyright [BSGStudio](http://buysellgraphic.com/)
+	- [no-results-found-min](https://all-free-download.com/free-vector/download/exploration-job-background-searching-man-sketch-cartoon-design_6844384.html) - [Free vectors](https://all-free-download.com/free-vector/) | copyright [BSGStudio](http://buysellgraphic.com/)
 
 - From media directory
-	- [bakerross](https://www.bakerross.ie/)
-	- [pixabay](https://pixabay.com/)
-	- [pexels](https://www.pexels.com/)
-	- [unsplash](https://unsplash.com/)
-	- [flickr](https://www.flickr.com/)
+	- all product images - [bakerross](https://www.bakerross.ie/)
+	- [park-guell-887725_1920-min](https://pixabay.com/fr/photos/parc-guell-mosa%C3%AFque-carreau-gaudi-887725/) - [Pixabay](https://pixabay.com/) | copyright [LisaRedfern](https://pixabay.com/fr/users/lisaredfern-910282/)
+	- [uzbekistan-196875_1920-min](https://pixabay.com/fr/photos/ouzb%C3%A9kistan-mosa%C3%AFque-mod%C3%A8le-196875/) - [Pixabay](https://pixabay.com/) | copyright [LoggaWiggler](https://pixabay.com/fr/users/loggawiggler-15/)
+	- [mosaic-200866_1920-min](https://pixabay.com/fr/photos/mosa%C3%AFque-carreau-art-c%C3%A9ramique-200866/) - [Pixabay](https://pixabay.com/) | copyright [GLady](https://pixabay.com/fr/users/glady-768/)
+	- [graffiti-wall-1209761_1920-min](https://pixabay.com/fr/photos/mur-de-graffiti-graffiti-1209761/) - [Pixabay](https://pixabay.com/) | copyright [Free-Photos](https://pixabay.com/fr/users/free-photos-242387/)
+	- [pexels-shukhrat-umarov-2103127-min](https://www.pexels.com/photo/child-sipping-from-pipe-graffiti-2103127/) - [Pexels](https://www.pexels.com/) | copyright [Shukhrat Umarov](https://www.pexels.com/@shukran)
+	- [eyasu-etsub-JlufluFHiZc-unsplash-min](https://unsplash.com/photos/JlufluFHiZc) - [Unsplash](https://unsplash.com/) | copyright [Eyasu Etsub](https://unsplash.com/@jphotography2012)
+	- [nasim-keshmiri-cdXwe6nROs8-unsplash-min](https://unsplash.com/photos/cdXwe6nROs8) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [fallon-michael-DWjucw3fsaQ-unsplash-min](https://unsplash.com/photos/DWjucw3fsaQ) - [Unsplash](https://unsplash.com/) | copyright [Fallon Michael](https://unsplash.com/@fallonmichaeltx)
+	- [nasim-keshmiri-CQ3xrqbV58s-unsplash-min](https://unsplash.com/photos/CQ3xrqbV58s) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [nadia-clabassi-9EiJn8OJ8wo-unsplash-min](https://unsplash.com/photos/9EiJn8OJ8wo) - [Unsplash](https://unsplash.com/) | copyright [Nadia Clabassi](https://unsplash.com/@foifezza)
+	- [elsa-lilja-xlkuA0VQshU-unsplash-min](https://unsplash.com/photos/xlkuA0VQshU) - [Unsplash](https://unsplash.com/) | copyright [Elsa Lilja](https://unsplash.com/@elsa_lilja)
+	- [pexels-khairul-nizam-16516-min](https://www.pexels.com/photo/doodle-comic-art-sketch-16516/) - [Pexels](https://www.pexels.com/) | copyright [khairul nizam](https://www.pexels.com/@niezam)
+	- [embroidery-942255_1920-min](https://pixabay.com/fr/photos/broderie-travaux-d-aiguille-942255/) - [Pixabay](https://pixabay.com/) | copyright [bluemorphos](https://pixabay.com/fr/users/bluemorphos-1137133/)
+	- [pexels-anete-lusina-4792086-min](https://www.pexels.com/photo/toy-bear-and-thread-on-table-in-room-in-daytime-4792086/) - [Pexels](https://www.pexels.com/) | copyright [Anete Lusina](https://www.pexels.com/@anete-lusina)
+	- [paint-4105253_1920-min](https://pixabay.com/fr/photos/peinture-peinture-acrylique-art-4105253/) - [Pixabay](https://pixabay.com/) | copyright [stux](https://pixabay.com/fr/users/stux-12364/)
+	- [mosaic-200868_1920-min](https://pixabay.com/fr/photos/mosa%C3%AFque-carreau-art-c%C3%A9ramique-200868/) - [Pixabay](https://pixabay.com/) | copyright [GLady](https://pixabay.com/fr/users/glady-768/)
+	- [nasim-keshmiri-o7IsP-DbIgk-unsplash-min](https://unsplash.com/photos/o7IsP-DbIgk) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [nasim-keshmiri-lUvvRj2RzK0-unsplash-min](https://unsplash.com/photos/lUvvRj2RzK0) - [Unsplash](https://unsplash.com/) | copyright [Nasim Keshmiri](https://unsplash.com/@nasimkeshmiri)
+	- [pexels-anni-roenkae-5278835-min](https://www.pexels.com/photo/art-creative-pattern-purple-5278835/) - [Pexels](https://www.pexels.com/) | copyright [Anni Roenkae](https://www.pexels.com/@anniroenkae)
+	- [pexels-anni-roenkae-2832382-min](https://www.pexels.com/photo/photo-of-multicolored-illustration-2832382/) - [Pexels](https://www.pexels.com/) | copyright [Anni Roenkae](https://www.pexels.com/@anniroenkae)
+	- [6367436537_e49503a3f0_b-min](https://www.flickr.com/photos/earthafricacurio/6367436537/) - [Flickr](https://www.flickr.com/) | copyright [Ian Nicholson](https://www.flickr.com/photos/earthafricacurio/)
+	- [12517089325_f4eca23e67_k-min](https://www.flickr.com/photos/paullew/12517089325/) - [Flickr](https://www.flickr.com/) | copyright [Lawrence OP](https://www.flickr.com/photos/paullew/)
+	- [111294390_33b9db4816_b-min](https://www.flickr.com/photos/hundreds/111294390/) - [Flickr](https://www.flickr.com/) | copyright [max_thinks_sees](https://www.flickr.com/photos/hundreds/)
+	- [17888752_1562ec72fe_b-min](https://www.flickr.com/photos/3sth3r/17888752/) - [Flickr](https://www.flickr.com/) | copyright [3sth3r](https://www.flickr.com/photos/3sth3r/)
+	- [toa-heftiba-D9EgMp2V85o-unsplash-min](https://unsplash.com/photos/D9EgMp2V85o) - [Unsplash](https://unsplash.com/) | copyright [Toa Heftiba](https://unsplash.com/@heftiba)
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Code <a name="Code"></a>
+### Code <a name="code"></a>
 
 - Environment variables - [Igor Basuga](https://github.com/bravoalpha79) Tutor at [Code Institute](http://codeinstitute.net)
 - Environment variables - Code Institute archive resources
@@ -776,43 +853,44 @@ Back to [top](#TableOfContents)
 - Using ngrok on Windows-10 - [youtube](https://www.youtube.com/watch?v=9gaaVbX0USI&ab_channel=ChuckSeverance)
 - Testing our Django App to be publicly accessible using NGROK - [medium](https://medium.com/@iot24hours/testing-our-django-app-to-be-publicly-accessible-using-ngrok-9b73851c46e0)
 - jQuery documentation - [jQuery](https://jquery.com/)
-- Favicon in django app - [stackoverflow](https://stackoverflow.com/questions/21938028/how-can-i-get-a-favicon-to-show-up-in-my-django-app)
+- Favicon in django app - [stack overflow](https://stackoverflow.com/questions/21938028/how-can-i-get-a-favicon-to-show-up-in-my-django-app)
 - Material Design for Bootstrap documentation - [mdbootstrap](https://mdbootstrap.com/)
 - How to integrate mdbootstrap with django - [mdbootstrap](https://mdbootstrap.com/articles/jquery/how-to-integrate-mdbootstrap-with-django/)
-- mdb input number [mdbootstrap](https://mdbootstrap.com/docs/jquery/forms/inputs/)
-- Creating a modal image gallery with bootstrap components - [css-tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
+- mdbootstrap input number [mdbootstrap](https://mdbootstrap.com/docs/jquery/forms/inputs/)
+- Creating a modal image gallery with bootstrap components - [css tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/)
 - How to - Portfolio Gallery with Filtering - [w3schools](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp)
-- Portfolio Filter Gallery HTML CSS & JavaScript | Image Category Filtering [webdevtrick](https://webdevtrick.com/portfolio-filter-gallery/)
+- Portfolio Filter Gallery HTML CSS & JavaScript | Image Category Filtering [web dev trick](https://webdevtrick.com/portfolio-filter-gallery/)
 - How to - Lightbox - [w3schools](https://www.w3schools.com/howto/howto_js_lightbox.asp)
 - Material Design Full Screen Modal - [mdbootstrap](https://mdbootstrap.com/snippets/jquery/mustafaozkaya/789907#html-tab-view)
 - How to change your commit messages in Git? - [github](https://gist.github.com/nepsilon/156387acf9e1e72d48fa35c4fabef0b4)
-- How to limit the maximum value of a numeric field in a Django model? [stackoverflow] - (https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model)
-- Python perform append at beginning of list - [geeksforgeeks] - https://www.geeksforgeeks.org/python-perform-append-at-beginning-of-list/
-- How to upload files with django - [simpleisbetterthancomplex](https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html)
+- How to limit the maximum value of a numeric field in a Django model? [stack overflow](https://stackoverflow.com/questions/849142/how-to-limit-the-maximum-value-of-a-numeric-field-in-a-django-model)
+- Python perform append at beginning of list - [geeksforgeeks](https://www.geeksforgeeks.org/python-perform-append-at-beginning-of-list/)
+- How to upload files with django - [simple is better than complex](https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html)
 - How to crop an image in css - [educative](https://www.educative.io/edpresso/how-to-crop-an-image-in-css)
-- Set favicon in django admin - [stackoverflow](https://stackoverflow.com/questions/34959897/set-favicon-in-django-admin)
-- Change the display format of time fields - [stackoverflow](https://stackoverflow.com/questions/7216764/in-the-django-admin-site-how-do-i-change-the-display-format-of-time-fields)
-- Automatic datetime fields - [simpleisbetterthancomplex](https://simpleisbetterthancomplex.com/tips/2016/05/23/django-tip-4-automatic-datetime-fields.html)
-- Delete a git commit but keep the changes [stackoverflow](https://stackoverflow.com/questions/15772134/can-i-delete-a-git-commit-but-keep-the-changes)
- - You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path - [stackoverflow](https://stackoverflow.com/questions/48455469/youre-using-the-staticfiles-app-without-having-set-the-static-root-setting-to-a)
- - Python django error oserror winerror 123 the filename directory name or vol - [stackoverflow](https://stackoverflow.com/questions/56166319/python-django-error-oserror-winerror-123-the-filename-directory-name-or-vol)
- - Modify Title and Header Django Admin Interface - [medium](https://adiramadhan17.medium.com/modify-title-and-header-django-admin-interface-a6ad6e470d92)
- - Customizing HTTP error web pages 404, 500, 403 and 400 in Django - [lavatechtechnology](http://lavatechtechnology.com/post/customizing-http-error-web-pages-404-500-403-and-400-in-django/)
- - Equivalent of export command in Windows - [superuser](https://superuser.com/questions/1500272/equivalent-of-export-command-in-windows)
- - Heroku Django Deploy Stripe Issue - No module named 'stripe'
- - [stackoverflow](https://stackoverflow.com/questions/51509121/heroku-django-deploy-stripe-issue-no-module-named-stripe/51509169)
- - Readme file information - [Tim Nelson](https://github.com/TravelTimN) Software Developer and Tutor at [Code Institute](http://codeinstitute.net)
+- Set favicon in django admin - [stack overflow](https://stackoverflow.com/questions/34959897/set-favicon-in-django-admin)
+- Change the display format of time fields - [stack overflow](https://stackoverflow.com/questions/7216764/in-the-django-admin-site-how-do-i-change-the-display-format-of-time-fields)
+- Automatic datetime fields - [simple is better than complex](https://simpleisbetterthancomplex.com/tips/2016/05/23/django-tip-4-automatic-datetime-fields.html)
+- Delete a git commit but keep the changes [stack overflow](https://stackoverflow.com/questions/15772134/can-i-delete-a-git-commit-but-keep-the-changes)
+- You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path - [stack overflow](https://stackoverflow.com/questions/48455469/youre-using-the-staticfiles-app-without-having-set-the-static-root-setting-to-a)
+- Python django error oserror winerror 123 the filename directory name or vol - [stack overflow](https://stackoverflow.com/questions/56166319/python-django-error-oserror-winerror-123-the-filename-directory-name-or-vol)
+- Modify Title and Header Django Admin Interface - [medium](https://adiramadhan17.medium.com/modify-title-and-header-django-admin-interface-a6ad6e470d92)
+- Customizing HTTP error web pages 404, 500, 403 and 400 in Django - [lavatech technology](http://lavatechtechnology.com/post/customizing-http-error-web-pages-404-500-403-and-400-in-django/)
+- Equivalent of export command in Windows - [superuser](https://superuser.com/questions/1500272/equivalent-of-export-command-in-windows)
+- Heroku Django Deploy Stripe Issue - No module named 'stripe'
+- [stack overflow](https://stackoverflow.com/questions/51509121/heroku-django-deploy-stripe-issue-no-module-named-stripe/51509169)
+- Readme file information - [Tim Nelson](https://github.com/TravelTimN) Software Developer and Tutor at [Code Institute](http://codeinstitute.net)
+- How to Rename a Local Branch in Git - [git tower](https://www.git-tower.com/learn/git/faq/git-rename-branch/)
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
 
-### Acknowledgements <a name="Acknowledgements"></a>
+### Acknowledgements <a name="acknowledgements"></a>
 
 - [Anthony Ngene](https://github.com/tonymontaro)
 	- Thanks to my Code Institute mentor for his time, suggestions, constructive feedback and availability.  
 - CI Tutor support for their help in order to understand some issues and their friendliness.
 
-Back to [top](#TableOfContents)
+Back to [top](#tableOfContents)
 
 ---
