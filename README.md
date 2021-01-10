@@ -81,30 +81,31 @@ Back to [top](#tableOfContents)
 
 ### User Stories <a name="userStories"></a>
 
-"***As a user, I want to _____***"
-
 :heavy_check_mark: successfully implemented
 :x: not yet implemented
 
+"***As a non authenticated user, I want to _____***"
 - :heavy_check_mark: view the site from any device (mobile, tablet, desktop)
-- :heavy_check_mark: be able to log in
 - :heavy_check_mark: be able to register
+- :heavy_check_mark: be able to log in
 - :heavy_check_mark: filter and search amongst all products
 - :heavy_check_mark: view all products
-- :heavy_check_mark: view a product details
-- :heavy_check_mark: add products with an image
-- :heavy_check_mark: add products without an image
-- :heavy_check_mark: edit products with an image
-- :heavy_check_mark: edit products without an image
-- :heavy_check_mark: delete products
+- :heavy_check_mark: view product details
+- :heavy_check_mark: view gallery images
+- :heavy_check_mark: add products to my bag
+- :heavy_check_mark: update products in my bag / adjust product quantity
+- :heavy_check_mark: remove products in my bag
+- :heavy_check_mark: checkout my order
+- :heavy_check_mark: send a contact request
+
+
+"***As an authenticated user, I want to _____***"
+- :heavy_check_mark: be able to log out
+- :heavy_check_mark: filter and search amongst all products
+- :heavy_check_mark: view all products
+- :heavy_check_mark: view product details
 - :heavy_check_mark: view gallery images
 - :heavy_check_mark: share a gallery image
-- :heavy_check_mark: add a gallery item with an image
-- :heavy_check_mark: add a gallery item without an image
-- :heavy_check_mark: edit a gallery item with an image
-- :heavy_check_mark: edit a gallery item without an image
-- :heavy_check_mark: delete a gallery image
-- :heavy_check_mark: approved a gallery image
 - :heavy_check_mark: view my profile
 - :heavy_check_mark: update my profile
 - :heavy_check_mark: add products to my bag
@@ -113,6 +114,22 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: save delivery info to profile while checkout
 - :heavy_check_mark: checkout my order
 - :heavy_check_mark: send a contact request
+
+
+"***As an admin, I want to _____***"
+
+- all user stories above
+- :heavy_check_mark: add a gallery item with an image
+- :heavy_check_mark: add a gallery item without an image
+- :heavy_check_mark: edit a gallery item with an image
+- :heavy_check_mark: edit a gallery item without an image
+- :heavy_check_mark: delete a gallery image
+- :heavy_check_mark: approved a gallery image
+- :heavy_check_mark: add a product with an image
+- :heavy_check_mark: add a product without an image
+- :heavy_check_mark: edit a product with an image
+- :heavy_check_mark: edit a product without an image
+- :heavy_check_mark: delete a product
 
 Back to [top](#tableOfContents)
 
