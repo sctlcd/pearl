@@ -92,7 +92,9 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: filter and search amongst all products
 - :heavy_check_mark: view all products
 - :heavy_check_mark: view product details
+- :heavy_check_mark: view quantity in shopping bag of current product in product details page
 - :heavy_check_mark: view gallery images
+- :heavy_check_mark: view a gallery image (modal)
 - :heavy_check_mark: add products to my bag
 - :heavy_check_mark: update products in my bag / adjust product quantity
 - :heavy_check_mark: remove products in my bag
@@ -105,7 +107,9 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: filter and search amongst all products
 - :heavy_check_mark: view all products
 - :heavy_check_mark: view product details
+- :heavy_check_mark: view quantity in shopping bag of current product in product details page
 - :heavy_check_mark: view gallery images
+- :heavy_check_mark: view a gallery image (modal)
 - :heavy_check_mark: share a gallery image
 - :heavy_check_mark: view my profile
 - :heavy_check_mark: update my profile
@@ -117,9 +121,9 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: send a contact request
 
 
-"***As an admin, I want to _____***"
+"***As an authenticated admin, I want to _____***"
 
-- all user stories above
+- :heavy_check_mark: all user stories that apply to an authenticated user apply to an authenticated admin.
 - :heavy_check_mark: add a gallery item with an image
 - :heavy_check_mark: add a gallery item without an image
 - :heavy_check_mark: edit a gallery item with an image
@@ -247,7 +251,7 @@ Back to [top](#tableOfContents)
 
 ##### Footer
 
-- Social medias to get connected
+- Social medias to get connected with Pearl
 - 3 sections : Company presentation, links to other pages of the website (not implemented), contact section with a contact button redirecting to the contact page.
 - copyright mention with my name and my gitbhub repository
 
@@ -510,64 +514,43 @@ friendly_name NULL varchar
 ### User story validation <a name="userStoryValidation"></a>
 
 :heavy_check_mark: *as expected*
+<br />
 :x: *not as expected*
+<br />
 n/a *not applicable*
 
 | User story | authenticated as admin | authenticated as regular user | non authenticated user | note |
 | :--- | :--- | :---| :--- | :--- |
-| view the site from any device (mobile, tablet, desktop) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| be able to log in |  |  |  |  |
-| be able to register |  |  |  |  |
-| filter and search amongst all products |  |  |  |  |
-| view all products |  |  |  |  |
-| view a product details |  |  |  |  |
-| add products with an image |  |  |  |  |
-| add products without an image |  |  |  |  |
-| edit products with an image |  |  |  |  |
-| edit products without an image |  |  |  |  |
-| delete products |  |  |  |  |
-| view gallery images |  |  |  |  |
-| share a gallery image |  |  |  |  |
-| add a gallery item with an image |  |  |  |  |
-| add a gallery item without an image |  |  |  |  |
-| edit a gallery item with an image |  |  |  |  |
-| edit a gallery item without an image |  |  |  |  |
-| delete a gallery image |  |  |  |  |
-| approved a gallery image |  |  |  |  |
-| view my profile |  |  |  |  |
-| update my profile |  |  |  |  |
-| add products to my bag |  |  |  |  |
-| update products in my bag / adjust product quantity |  |  |  |  |
-| remove products in my bag |  |  |  |  |
-| save delivery info to profile while checkout |  |  |  |  |
-| checkout my order |  |  |  |  |
-| send a contact request |  |  |  |  |
-
-- :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
-- :heavy_check_mark: be able to log in.
-- :heavy_check_mark: be able to log out.
-- :heavy_check_mark: be able to register.
-- :heavy_check_mark: filter and search amongst all products.
-- :heavy_check_mark: view all products.
-- :heavy_check_mark: view a product details.
-- :heavy_check_mark: add products with an image as an admin.
-- :heavy_check_mark: add products without an image as an admin.
-- :heavy_check_mark: edit products with an image as an admin.
-- :heavy_check_mark: edit products without an image as an admin.
-- :heavy_check_mark: delete products as an admin.
-- :heavy_check_mark: view gallery images.
-- :heavy_check_mark: share a gallery image as a logged in user.
-- :heavy_check_mark: add a gallery item with an image as an admin.
-- :heavy_check_mark: add a gallery item without an image as an admin.
-- :heavy_check_mark: edit a gallery item with an image as an admin.
-- :heavy_check_mark: edit a gallery item without an image as an admin.
-- :heavy_check_mark: delete a gallery image as an admin.
-- :heavy_check_mark: approved a gallery image as an admin.
-- :heavy_check_mark: view my profile as a logged in user.
-- :heavy_check_mark: update my profile as a logged in user.
-- :heavy_check_mark: add products to my bag.
-- :heavy_check_mark: checkout my order.
-- :heavy_check_mark: send a contact request.
+| view the site from any device (mobile, tablet, desktop) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| be able to register | n/a | n/a | :heavy_check_mark: | - |
+| be able to log in | n/a | n/a | :heavy_check_mark: | - |
+| be able to log out | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| filter and search amongst all products | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view all products | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view a product details | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view quantity in shopping bag of current product in product details page | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| add products with an image | :heavy_check_mark: | n/a | n/a | - |
+| add products without an image | :heavy_check_mark: | n/a | n/a | - |
+| edit products with an image | :heavy_check_mark: | n/a | n/a | - |
+| edit products without an image | :heavy_check_mark: | n/a | n/a | - |
+| delete products | :heavy_check_mark: | n/a | n/a | - |
+| view gallery images | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view a gallery image (modal) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| share a gallery image | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| add a gallery item with an image | :heavy_check_mark: | n/a | n/a | - |
+| add a gallery item without an image | :heavy_check_mark: | n/a | n/a | - |
+| edit a gallery item with an image | :heavy_check_mark: | n/a | n/a | - |
+| edit a gallery item without an image | :heavy_check_mark: | n/a | n/a | - |
+| delete a gallery image | :heavy_check_mark: | n/a | n/a | - |
+| approved a gallery image | :heavy_check_mark: | n/a | n/a | - |
+| view my profile | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| update my profile | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| add products to my bag | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| update products in my bag / adjust product quantity | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| remove products in my bag | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| save delivery info to profile while checkout | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| checkout my order | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| send a contact request | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
 
 ---
 
@@ -666,9 +649,10 @@ Back to [top](#tableOfContents)
 
 ### Known Issues <a name="knownIssues"></a>
 
-- If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible.  
+- If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible (from products page, gallery page).  
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
+- The order is successfully created. The payment is charged correctly. The order confirmation email is not received.
 
 Back to [top](#tableOfContents)
 
