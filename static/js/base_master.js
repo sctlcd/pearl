@@ -129,11 +129,35 @@ $(document).ready(function() {
     }
   });
 
-  // Trigger the click event on the user-options id element
-  $('.navbar #user-options').click(function(event) {
+  // Trigger the click event on the mobile-user-options id element
+  $('#mobile-user-options').click(function(event) {
     if ($('#main-nav.show').is(':visible')) {
       // Collapse the navbar collapse menu
       hideNavbarCollapseMenu();
+      // When scroll down display a bottom border in the fixed navbar
+      if ($(window).scrollTop() == 0) {
+        //This code will execute when when the scrollbar is on the top
+        navbarNotFixedTop();
+      } else {
+        //This code will execute when the scrollbar is not on the top
+        navbarFixedTop();
+      }
+    }
+  });
+
+  // Trigger the click event on the mobile-gallery id element
+  $('#mobile-gallery').click(function(event) {
+    if ($('#main-nav.show').is(':visible')) {
+      // Collapse the navbar collapse menu
+      hideNavbarCollapseMenu();
+      // When scroll down display a bottom border in the fixed navbar
+      if ($(window).scrollTop() == 0) {
+        //This code will execute when when the scrollbar is on the top
+        navbarNotFixedTop();
+      } else {
+        //This code will execute when the scrollbar is not on the top
+        navbarFixedTop();
+      }
     }
   });
 
@@ -148,8 +172,7 @@ $(document).ready(function() {
     }
   });
 
-  // When scroll down display a bottom border in the fixed navbar,
-  // including the navbar collapse menu when this one is visible
+  // When scroll down display a bottom border in the fixed navbar
   $(window).scroll(function() {
     if ($(this).scrollTop() == 0) {
       // This code will execute when when the scrollbar is on the top

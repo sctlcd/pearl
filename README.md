@@ -34,7 +34,7 @@ Because of an issue relative to submitting a form with an uploaded image in my d
 
 3. [Technologies Used](#technologiesUsed)
 	- [Front-End Technologies](#frontEndTechnologies)
-  - [Back-End Technologies](#backEndTechnologies)
+	- [Back-End Technologies](#backEndTechnologies)
 
 4. [Relational scheme](#relationalScheme)
 
@@ -61,7 +61,7 @@ Because of an issue relative to submitting a form with an uploaded image in my d
 
 ## About <a name="about"></a>
 
-The primary purpose of Pearl is to purchase arts and crafts supplies. Its secondary purpose is to share customers' work of art in the meantime as getting inspiration from other customers' creative work in the gallery. And this anytime, anywhere as this application is available on various devices as desktops, tablets and mobile.
+The primary purpose of Pearl is to **purchase arts and crafts supplies**. Its secondary purpose is to **share customers' work of art** in the meantime as **getting inspiration** from other customers' creative work in the **gallery**. And this anytime, anywhere as this application is available on various devices as desktops, tablets and mobile.
 
 Back to [top](#tableOfContents)
 
@@ -82,6 +82,7 @@ Back to [top](#tableOfContents)
 ### User Stories <a name="userStories"></a>
 
 :heavy_check_mark: successfully implemented
+<br/>
 :x: not yet implemented
 
 "***As a non authenticated user, I want to _____***"
@@ -139,13 +140,13 @@ Back to [top](#tableOfContents)
 
 I did choose a warm, joyful and energetic orange ![#fc9601](https://placehold.it/15/fc9601/fc9601) `#fc9601` combined with sober and reliable colors ranging between off-white ![#fafafa](https://placehold.it/15/fafafa/fafafa) `#fafafa` and black ![#000](https://placehold.it/15/000/000) `#000` with shades of grey (more color details in [Color Scheme](#colorScheme) section).
 <br />
-I first choose my [logo](https://www.flaticon.com/free-icon/craft_3079199) from Flaticon(https://www.flaticon.com) which I customized in [Pearl logo](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png).
+I first selected my [logo](https://www.flaticon.com/free-icon/craft_3079199) from Flaticon(https://www.flaticon.com) which I customized in [Pearl logo](https://github.com/sctlcd/pearl/blob/master/media/logo/pearl-min.png).
 <br />
-Then I selected [images](https://github.com/sctlcd/pearl/tree/master/media) relative to arts and crafts and creative activities which fit well in my color scheme and in the space allocated.
+Then I chose [images](https://github.com/sctlcd/pearl/tree/master/media) relative to arts and crafts and creative activities which fit well in my color scheme and in the space allocated.
 <br />
-I finally selected the main home page image, a [fire spin](https://github.com/sctlcd/pearl/blob/master/media/home/hero_image/hero-image-background-min.jpg) picture, as I found it absolutely stunning, very eye-catchy and intriguing. Catching customers/visitors' attention and raising their interest and curiosity are I believe a good recipe for new visitors as much as for regular customers of an e-commerce site.  
+I finally selected the main home page image, a [fire spin](https://github.com/sctlcd/pearl/blob/master/media/home/hero_image/hero-image-background-min.jpg) picture, as I found it absolutely stunning, very eye-catchy and intriguing. Catching customers/visitors' attention and raising their interest and curiosity are, I believe, a good recipe for new visitors as much as for regular customers of an e-commerce site.  
 <br />
-I decided to implement a customers' gallery and offering the possibility to share your own piece of art while getting inspiration from other customers' art work. I believe this feature is a very interesting one as it involves the customers/makes the customers participate in the website building. They are actor, in a way, of the gallery page building and its content.  
+I decided to implement a customers' gallery and offering the possibility to share your own piece of art while getting inspiration from other customers' art work. I believe this feature is a very interesting one as it involves the customers/makes the customers participate in the website building. They are actors, in a way, of the gallery page building and its content.  
 
 Back to [top](#tableOfContents)
 
