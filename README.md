@@ -232,7 +232,7 @@ I have used Balsamiq Wireframes for my wireframes because:
 
 - Code Institute have provided all students a free licence. I got to use this software a few years ago and I am pretty happy to get the chance to use it again.
 - The simplicity, rapidity and ease of use by focusing on structure and content.
-- My wireframes for this project can be found here in the [wireframes](https://github.com/sctlcd/pearl/tree/master/design/wireframes/pearl-wireframes.bmpr) sub-directory.
+- My wireframes for this project can be found here in the [wireframes](https://github.com/sctlcd/pearl/tree/master/design/wireframes/) sub-directory.
 
 Remark: There is a bug at the opening of the balsamiq file: in each page on the mobile version, there are icon overlays on the right corner.
 
@@ -386,12 +386,12 @@ Back to [top](#tableOfContents)
 
 ##### No result found page
 
-- Humoristic picture and message letting know the user no result have been found matching with his/her search.
+- Humoristic picture and message letting know the user no result have been found matching with his/her search. - [No result found page](https://sctlcd-pearl3.herokuapp.com/products/?q=aaaaa)
 - Link redirecting to Products Home page
 
 ##### Error pages
 
-- 404 page - No page found
+- 404 page - [No page found](https://sctlcd-pearl3.herokuapp.com/products/ggggg)
 	- Link redirecting to Products Home page  
 - 500 page - Internal server error
 	- Link redirecting to Products Home page  
@@ -679,7 +679,7 @@ I tested the website across the 6 main browsers in both desktop and mobile confi
 | :---: | :---: | :---: | :---: |
 | 89% | 82% | 93% | 90% |
 
-The Chrome DevTools Audit Report can be found in my [testing folder](https://github.com/sctlcd/pearl/tree/master/testing/devtools-audit-report.png)
+The Chrome DevTools Audit Report can be found in my [testing folder](https://github.com/sctlcd/pearl/blob/master/testing/devtools-audit-report.PNG)
 
 Back to [top](#tableOfContents)
 
