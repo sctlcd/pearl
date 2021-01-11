@@ -728,6 +728,7 @@ Back to [top](#tableOfContents)
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
 - The order is created and the payment is charged correctly (see [here](https://github.com/sctlcd/pearl/tree/master/testing/stripe_checkout_wh.PNG) and [here](https://github.com/sctlcd/pearl/tree/master/testing/stripe_payment.PNG)) The order confirmation email is not received.
+- Create a Project folder at the root of Pearl repository containing the code project repositories in order to separate design and testing folders from the code project repository.
 
 Back to [top](#tableOfContents)
 
