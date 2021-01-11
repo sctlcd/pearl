@@ -92,7 +92,9 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: filter and search amongst all products
 - :heavy_check_mark: view all products
 - :heavy_check_mark: view product details
+- :heavy_check_mark: view quantity in shopping bag of current product in product details page
 - :heavy_check_mark: view gallery images
+- :heavy_check_mark: view a gallery image (modal)
 - :heavy_check_mark: add products to my bag
 - :heavy_check_mark: update products in my bag / adjust product quantity
 - :heavy_check_mark: remove products in my bag
@@ -105,7 +107,9 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: filter and search amongst all products
 - :heavy_check_mark: view all products
 - :heavy_check_mark: view product details
+- :heavy_check_mark: view quantity in shopping bag of current product in product details page
 - :heavy_check_mark: view gallery images
+- :heavy_check_mark: view a gallery image (modal)
 - :heavy_check_mark: share a gallery image
 - :heavy_check_mark: view my profile
 - :heavy_check_mark: update my profile
@@ -117,9 +121,9 @@ Back to [top](#tableOfContents)
 - :heavy_check_mark: send a contact request
 
 
-"***As an admin, I want to _____***"
+"***As an authenticated admin, I want to _____***"
 
-- all user stories above
+- :heavy_check_mark: all user stories that apply to an authenticated user apply to an authenticated admin.
 - :heavy_check_mark: add a gallery item with an image
 - :heavy_check_mark: add a gallery item without an image
 - :heavy_check_mark: edit a gallery item with an image
@@ -242,30 +246,68 @@ Back to [top](#tableOfContents)
 
 #####  Navigation bar
 
-- A top navbar with the logo and the name of the website, menu items and dropdown menu items : Gallery, My Account, Basket and a product search bar.
+- A top navbar with the logo and the name of the website, menu items and dropdown menu items : Gallery, My Account, Shopping bag and a product search bar.
 - a navbar with the products menu items and dropdown menu items
+
+- Common desktop/mobile:
+	- Transparent navbar when
+		- the window is at the top
+		- the header is not hovered
+		- menu/sub-menu are not opened
+		- navbar collapse menu is collapsed
+	- White navbar when
+		- the window is scrolled down
+		- the header is hovered
+		- menu/sub-menu are opened
+		- navbar collapse menu is pulled down
+	- Orange double line on the bottom of the navbar when the page is scrolled
+	- Menu item highlighted when hovered or selected/pulled down
+	- Sub-menu item highlighted when hovered
+	- "My account" and "Gallery" menu closes when the user clicks anywhere in the page
+
+- Specific desktop :
+	- Navbar item sub-menu closes when the user clicks anywhere in the page
+	- Logo of the website
+	- Favicon
+
+- Specific mobile :
+	- Search input field in the mobile top header close when the user clicks anywhere in the page
+	- Navbar collapse menu closes when the user clicks on "Search", "My Account" or "Gallery" icon links
+
+	Back to [top](#tableOfContents)
+
+	---
 
 ##### Footer
 
-- Social medias to get connected
-- 3 sections : Company presentation, links to other pages of the website (not implemented), contact section with a contact button redirecting to the contact page.
-- copyright mention with my name and my gitbhub repository
-
-Back to [top](#tableOfContents)
-
----
+- Social medias to get connected with Pearl
+- 3 sections : Company presentation, links to other pages of the website (not implemented), contact section with a contact button redirecting to the Contact page.
+- Copyright mention with my name and my gitbhub repository
 
 ##### Home page
 
 - 6 sections: Shop now, website order feature offered, target activities, customer reviews, Share your work of art, Stay tune (newsletter subscription not implemented, for presentation purpose)
 
+Back to [top](#tableOfContents)
+
+---
+
 ##### Products page
 
 - A Product collection presented in a "mosaic format"
+- Possibility to sort product by price, rating, name, category
+- Number of Product result from the product filter or from the Search option.
+- Link back to Product home
+- Product name, price, category and rating are visible
+- Top/down page button to facilitate the navigation
+- Edit/delete button are visible if authenticated as Admin
+- Clicking on Edit/Delete opens a confirmation modal to continue to edit/delete or to cancel.
+- Selecting Yes redirects to the Edit Product page or delete the product
 
 ##### Products details page
 
-- A page with product details: name, description, price, rating, product image
+- A page with product details: name, description, price, category, rating, product image, quantity to add to shopping bag, number of current product in shopping bag is display to inform the user
+- Buttons: Keep shopping, Add to bag
 
 Back to [top](#tableOfContents)
 
@@ -273,21 +315,32 @@ Back to [top](#tableOfContents)
 
 ##### Products management page
 
-- Add Product page with add product form
-- Edit Product page with edit product form
+- Add Product page: add product form containing the fields: Category, Sku, Name, Description, Price, Image, select image button, buttons: Cancel, Add Product
+- Edit Product page: edit product form containing the fields: Category, Sku, Name, Description, Price, Image, buttons: Cancel, Edit Product
 
 ##### Gallery page
 
-- A gallery of customers' work of art
+- A gallery of customers' work of art presented in a "mosaic format".
+- The gallery images can be filtered by All, Mosaic, Painting, Beads, other
+- The author name is displayed below the images preceded by a copyright
+- Clicking on the image opens a gallery image modal composed of the author name preceded by a copyright mention as title, social media links to spread the world, close button
+- Top/down page button to facilitate the navigation
+- Edit/delete button are visible if authenticated as Admin
+- Clicking on Edit/Delete opens a confirmation modal to continue to edit/delete or to cancel.
+- Selecting Yes redirects to the Edit Gallery image page or delete the gallery image
+
+Back to [top](#tableOfContents)
+
+---
 
 ##### Share gallery page
 
-- A share gallery item form can be submitted
+- A share gallery item form can be submitted containing the fields: user name, email, author name, gallery category, image, note, an info message "The author name filled in this form will be accompanied by the copyright mention when your photo will be published.", buttons: home, share
 
 ##### Gallery management page
 
-- Add Gallery item page with add gallery item form
-- EditGallery item page with edit gallery item form
+- Add Gallery item page: add gallery item form containing the fields: user name, email, author name, gallery category, image, select image button, note, is approved,  buttons: cancel, add gallery image
+- Edit Gallery item page: edit gallery item form containing the fields: user name, email, author name, gallery category, image, select image button, note, is approved,  buttons: cancel, edit gallery image
 
 Back to [top](#tableOfContents)
 
@@ -296,15 +349,36 @@ Back to [top](#tableOfContents)
 ##### Profile page
 
 - To view and update your profile
+- Default delivery information form containing: phone number, street address 1, street address 2, town or city, county state or locality, postal code, country, update information buttons
+- Order history table containing: order number, date, items, order total
 
 
 ##### Shopping bag page
 
 - To view and adjust your shopping bag
+- Shopping bag table containing: product image, product description, price, quantity, subtotal
+- update/remove links to quantity fields
+- Bag total price, delivery cost and grand total price are displayed
+- A message inform the user about free delivery: "You could get free delivery by spending just $XX.XX more!"
+- buttons: keep shopping, secure checkout
+
+Back to [top](#tableOfContents)
+
+---
 
 ##### Checkout page
 
-- To checkout orders
+- Checkout form containing Full name, email address, phone number, street address 1, street address 2, town or city, county state or locality, postal code, country, payment details, buttons: adjust bag, complete order.
+- A message informs the user "Your card will be charged $XX.XX"
+- Order summary table containing: product image, item, product name, quantity, subtotal
+- Order total, delivery and grand total prices are displayed
+
+
+##### Contact us page
+
+- Section with Pearl information details: address, phone number, working hours, email street_address
+- Contact form containing: first name, last name, email, message, buttons: home, spend
+- Street view map of the shop location
 
 Back to [top](#tableOfContents)
 
@@ -315,10 +389,6 @@ Back to [top](#tableOfContents)
 - Humoristic picture and message letting know the user no result have been found matching with his/her search.
 - Link redirecting to Products Home page
 
-Back to [top](#tableOfContents)
-
----
-
 ##### Error pages
 
 - 404 page - No page found
@@ -326,6 +396,9 @@ Back to [top](#tableOfContents)
 - 500 page - Internal server error
 	- Link redirecting to Products Home page  
 
+	Back to [top](#tableOfContents)
+
+	---
 
 ##### Pearl Admin Portal
 
@@ -505,69 +578,54 @@ name NULL varchar
 friendly_name NULL varchar
 ```
 
+Back to [top](#tableOfContents)
+
+---
+
 ## Testing <a name="testing"></a>
 
 ### User story validation <a name="userStoryValidation"></a>
 
 :heavy_check_mark: *as expected*
+<br />
 :x: *not as expected*
+<br />
 n/a *not applicable*
 
 | User story | authenticated as admin | authenticated as regular user | non authenticated user | note |
 | :--- | :--- | :---| :--- | :--- |
-| view the site from any device (mobile, tablet, desktop) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| be able to log in |  |  |  |  |
-| be able to register |  |  |  |  |
-| filter and search amongst all products |  |  |  |  |
-| view all products |  |  |  |  |
-| view a product details |  |  |  |  |
-| add products with an image |  |  |  |  |
-| add products without an image |  |  |  |  |
-| edit products with an image |  |  |  |  |
-| edit products without an image |  |  |  |  |
-| delete products |  |  |  |  |
-| view gallery images |  |  |  |  |
-| share a gallery image |  |  |  |  |
-| add a gallery item with an image |  |  |  |  |
-| add a gallery item without an image |  |  |  |  |
-| edit a gallery item with an image |  |  |  |  |
-| edit a gallery item without an image |  |  |  |  |
-| delete a gallery image |  |  |  |  |
-| approved a gallery image |  |  |  |  |
-| view my profile |  |  |  |  |
-| update my profile |  |  |  |  |
-| add products to my bag |  |  |  |  |
-| update products in my bag / adjust product quantity |  |  |  |  |
-| remove products in my bag |  |  |  |  |
-| save delivery info to profile while checkout |  |  |  |  |
-| checkout my order |  |  |  |  |
-| send a contact request |  |  |  |  |
+| view the site from any device (mobile, tablet, desktop) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| be able to register | n/a | n/a | :heavy_check_mark: | - |
+| be able to log in | n/a | n/a | :heavy_check_mark: | - |
+| be able to log out | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| filter and search amongst all products | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view all products | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view a product details | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view quantity in shopping bag of current product in product details page | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| add products with an image | :heavy_check_mark: | n/a | n/a | - |
+| add products without an image | :heavy_check_mark: | n/a | n/a | - |
+| edit products with an image | :heavy_check_mark: | n/a | n/a | - |
+| edit products without an image | :heavy_check_mark: | n/a | n/a | - |
+| delete products | :heavy_check_mark: | n/a | n/a | - |
+| view gallery images | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| view a gallery image (modal) | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| share a gallery image | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| add a gallery item with an image | :heavy_check_mark: | n/a | n/a | - |
+| add a gallery item without an image | :heavy_check_mark: | n/a | n/a | - |
+| edit a gallery item with an image | :heavy_check_mark: | n/a | n/a | - |
+| edit a gallery item without an image | :heavy_check_mark: | n/a | n/a | - |
+| delete a gallery image | :heavy_check_mark: | n/a | n/a | - |
+| approved a gallery image | :heavy_check_mark: | n/a | n/a | - |
+| view my profile | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| update my profile | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| add products to my bag | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| update products in my bag / adjust product quantity | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| remove products in my bag | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| save delivery info to profile while checkout | :heavy_check_mark: | :heavy_check_mark: | n/a | - |
+| checkout my order | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
+| send a contact request | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
 
-- :heavy_check_mark: view the site from any device (mobile, tablet, desktop).
-- :heavy_check_mark: be able to log in.
-- :heavy_check_mark: be able to log out.
-- :heavy_check_mark: be able to register.
-- :heavy_check_mark: filter and search amongst all products.
-- :heavy_check_mark: view all products.
-- :heavy_check_mark: view a product details.
-- :heavy_check_mark: add products with an image as an admin.
-- :heavy_check_mark: add products without an image as an admin.
-- :heavy_check_mark: edit products with an image as an admin.
-- :heavy_check_mark: edit products without an image as an admin.
-- :heavy_check_mark: delete products as an admin.
-- :heavy_check_mark: view gallery images.
-- :heavy_check_mark: share a gallery image as a logged in user.
-- :heavy_check_mark: add a gallery item with an image as an admin.
-- :heavy_check_mark: add a gallery item without an image as an admin.
-- :heavy_check_mark: edit a gallery item with an image as an admin.
-- :heavy_check_mark: edit a gallery item without an image as an admin.
-- :heavy_check_mark: delete a gallery image as an admin.
-- :heavy_check_mark: approved a gallery image as an admin.
-- :heavy_check_mark: view my profile as a logged in user.
-- :heavy_check_mark: update my profile as a logged in user.
-- :heavy_check_mark: add products to my bag.
-- :heavy_check_mark: checkout my order.
-- :heavy_check_mark: send a contact request.
+Back to [top](#tableOfContents)
 
 ---
 
@@ -666,9 +724,10 @@ Back to [top](#tableOfContents)
 
 ### Known Issues <a name="knownIssues"></a>
 
-- If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible.  
+- If mobile menu is collapsed and if the user scrolls down then scrolls up to the very top of the page window (window scroll = 0) then Top/Down page buttons are visible (from products page, gallery page).  
 - Set image gallery back to required.
 - Create products and gallery sub-directories in media folder containing respectively product images and gallery images.
+- The order is created and the payment is charged correctly (see [here](https://github.com/sctlcd/pearl/tree/master/testing/stripe_checkout_wh.PNG) and [here](https://github.com/sctlcd/pearl/tree/master/testing/stripe_payment.PNG)) The order confirmation email is not received.
 
 Back to [top](#tableOfContents)
 

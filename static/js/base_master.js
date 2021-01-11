@@ -52,7 +52,7 @@ $(document).ready(function() {
         if ($('#main-nav.show').is(':visible') ||
           $('.header .list-inline-item.show').is(':visible') ||
           $('.navbar-desktop .dropdown-menu.show').is(':visible')) {
-          bgWhiteNoTransition()
+          bgWhiteNoTransition();
         } else {
           bgTransparent();
         }
@@ -180,7 +180,7 @@ $(document).ready(function() {
       if ($('#main-nav.show').is(':visible') ||
         $('.header .list-inline-item.show').is(':visible') ||
         $('.navbar-desktop .dropdown-menu.show').is(':visible')) {
-        bgWhiteNoTransition()
+        bgWhiteNoTransition();
       } else {
         bgTransparent();
       }
