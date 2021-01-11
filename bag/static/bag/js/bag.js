@@ -4,5 +4,5 @@ $('document').ready(function($) {
   $('.update-link').click(function(e) {
     var form = $(this).parent().prev('.update-form');
     form.submit();
-  })
+  });
 });

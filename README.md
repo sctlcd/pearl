@@ -246,7 +246,7 @@ Back to [top](#tableOfContents)
 
 #####  Navigation bar
 
-- A top navbar with the logo and the name of the website, menu items and dropdown menu items : Gallery, My Account, Basket and a product search bar.
+- A top navbar with the logo and the name of the website, menu items and dropdown menu items : Gallery, My Account, Shopping bag and a product search bar.
 - a navbar with the products menu items and dropdown menu items
 
 - Common desktop/mobile:
@@ -263,17 +263,15 @@ Back to [top](#tableOfContents)
 	- Orange double line on the bottom of the navbar when the page is scrolled
 	- Menu item highlighted when hovered or selected/pulled down
 	- Sub-menu item highlighted when hovered
-	- "My account" menu closes when the user clicks anywhere in the page
+	- "My account" and "Gallery" menu closes when the user clicks anywhere in the page
 
 - Specific desktop :
-	- "Gallery" icon link added in the desktop top nav
 	- Navbar item sub-menu closes when the user clicks anywhere in the page
 	- Logo of the website
 	- Favicon
 
 - Specific mobile :
-	- "Home" and "Gallery" icon links added in the mobile top header
-	- Search input field in the mobile top header closes when the user clicks anywhere in the page
+	- Search input field in the mobile top header close when the user clicks anywhere in the page
 	- Navbar collapse menu closes when the user clicks on "Search", "My Account" or "Gallery" icon links
 
 	Back to [top](#tableOfContents)

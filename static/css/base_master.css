@@ -328,7 +328,7 @@ form div>label.active {
 }
 
 .bg-hover-white:hover form input,
-.bg-hover-white form input, {
+.bg-hover-white form input {
   border: 1px solid #fc9601eb !important;
 }
 
